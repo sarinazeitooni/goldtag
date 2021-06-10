@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.147cd24d.chunk.css",
+    "main.js": "/static/js/main.94eb74df.chunk.js",
+    "main.js.map": "/static/js/main.94eb74df.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.1efe4538.js",
+    "runtime-main.js.map": "/static/js/runtime-main.1efe4538.js.map",
+    "static/css/2.a51140d7.chunk.css": "/static/css/2.a51140d7.chunk.css",
+    "static/js/2.3507c0d1.chunk.js": "/static/js/2.3507c0d1.chunk.js",
+    "static/js/2.3507c0d1.chunk.js.map": "/static/js/2.3507c0d1.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.a51140d7.chunk.css.map": "/static/css/2.a51140d7.chunk.css.map",
+    "static/css/main.147cd24d.chunk.css.map": "/static/css/main.147cd24d.chunk.css.map",
+    "static/js/2.3507c0d1.chunk.js.LICENSE.txt": "/static/js/2.3507c0d1.chunk.js.LICENSE.txt",
+    "static/media/charity.ecfc16c9.svg": "/static/media/charity.ecfc16c9.svg",
+    "static/media/goldtag.01eb94cd.svg": "/static/media/goldtag.01eb94cd.svg",
+    "static/media/instagram.74232305.png": "/static/media/instagram.74232305.png",
+    "static/media/main.scss": "/static/media/iranyekanwebregularfanum.f01e9ae5.woff",
+    "static/media/telegram.d47ed502.svg": "/static/media/telegram.d47ed502.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1efe4538.js",
+    "static/css/2.a51140d7.chunk.css",
+    "static/js/2.3507c0d1.chunk.js",
+    "static/css/main.147cd24d.chunk.css",
+    "static/js/main.94eb74df.chunk.js"
+  ]
+}

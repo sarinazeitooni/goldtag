@@ -1,0 +1,24 @@
+.swiperContainer{
+  @media only screen and (max-width: 600px) {
+    margin: 0;
+    .swiper-item{
+      height: 200px;
+      border-radius: 0 !important;
+    }
+  }
+  @media screen and (min-width:1450px){
+    width: 70%;
+    margin: 25px auto;
+  }
+    margin:25px 8%;
+    .swiper-item{
+        background-size: cover;
+        background-position: center;
+      @media screen and (max-width: 600px){
+        height: 200px;
+      }
+        height: 500px;
+        width: 100%;
+        border-radius: 5px;
+    }
+}

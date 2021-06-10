@@ -1,0 +1,16 @@
+.header{
+    hr{
+        width: 100%;
+        margin: 0 !important;
+    }
+    .header-top-container{
+        @media screen and (min-width:1450px){
+            width: 70%;
+            grid-template-columns: 54% 46%;
+        }
+        margin: 0 auto 0 auto;
+        height: 75px;
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+}
