@@ -1,0 +1,67 @@
+.price-container-btn{
+  @media screen and (max-width:600px){
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+  width: 378px;
+  background-image: linear-gradient(180deg,#d76161 0,#bc4141 51%,#a32929);
+  color: #fff;
+  display: grid;
+  grid-template-columns: 20% 80%;
+  padding: .5rem .75rem;
+  margin: 1rem 0 .5rem;
+  .old-price-container{
+    font-family: goldtagFont;
+    display: grid;
+    @media screen and (max-width:600px){
+      grid-template-columns: 45% 55%;
+    }
+    grid-template-columns: 29% 35%;
+    position: relative;
+    .discount-percent{
+      font-size: 1rem;
+      color: #ffb3a5;
+      width: 85px;
+    }
+    .old-price{
+      font-size: 1rem;
+      color: #551e14;
+      &::after{
+        @media screen and (max-width:600px){
+          left: 14px;
+        }
+        position: absolute;
+        content: '';
+        width: 80px;
+        left: 110px;
+        top: 12px;
+        height: 1px;
+        background-color:  #551e14;
+      }
+    }
+  }
+  .new-price-container{
+    .currency{
+      font-size: 1rem;
+    }
+    text-align: right;
+    span{
+      font-size: 1.9rem;
+    }
+    .price-num{
+      font-size: 2rem;
+      margin-right: .65em;
+      margin-left: .15em;
+    }
+  }
+  .shopping-icon{
+    svg{
+      width: 100% !important;
+      font-size: 40px;
+    }
+    &:hover{
+      animation: shake .5s infinite;
+    }
+  }
+}

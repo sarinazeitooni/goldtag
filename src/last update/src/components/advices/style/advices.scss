@@ -1,0 +1,71 @@
+.position{
+            position: absolute;
+            top: -42px;
+}
+.advices-container{
+    margin-top: 30px;
+    @media screen and (max-width: 600px){
+        margin-top: 5px!important;
+    }
+    .advice-text{
+        @media screen and (max-width:600px){
+            margin: 0 25px;
+        }
+        padding-bottom: 30px;
+        color: #616161;
+        text-align: center;
+    }
+    .advice-pic{
+        @media screen and (max-width:600px){
+            margin: 0 32.5%;
+        }
+        margin: 0 auto;
+        width: 97px;
+        img{
+            margin-bottom: 25px;
+        }
+    }
+    .advices-input-container{
+        position: relative;
+        .advice-icon{
+            @media screen and (max-width:600px){
+                right: 22px;
+            }
+            z-index: 20;
+            right: 39%;
+            @extend .position;
+        }
+        .advice-text{
+            @media screen and (max-width:600px){
+                left: 0px;
+            }
+            @extend .position;
+            left: 40%;
+            font-size: .75rem;
+        }
+        .advices-input-items{
+            margin-bottom: 30px;
+            &:last-child{
+                color: #436fbe;
+            }
+            .advice-input{
+                @media screen and (max-width:600px){
+
+                    width: 93%;
+                    right: 11px !important;
+                }
+                right: 38.5%;
+                position: absolute;
+                font-family: 'goldtagFont';
+                padding: 7px;
+                top: -50px;
+                border-radius: .25rem;
+                border: 1px solid rgba(0,0,0,.1);
+                width: 22%;
+            }
+        }
+    }
+}
+.upper-footer-divider{
+    margin-top: 65px;
+}

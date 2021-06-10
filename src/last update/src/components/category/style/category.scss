@@ -1,0 +1,33 @@
+.category-container{
+    @media screen and (max-width: 600px){
+        margin-top: 5px!important;
+    }
+    margin-top: 50px;
+    hr{
+        @media screen and (min-width: 1450px){
+            width: 75%;
+            margin: 0 auto !important;
+        }
+    }
+    h3{
+        text-align: center;
+    }
+    .category-item-container{
+        margin-top: 10px;
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        margin: 0 auto;
+        width: 75%;
+        div{
+            height: 100px;
+            margin: 10px;
+            transition: all .2s;
+            &:hover{
+                opacity: .75;
+            }
+        }
+    }
+    .category-swiper{
+        width: 100%;
+    }
+}
