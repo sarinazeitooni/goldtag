@@ -1,3 +1,4 @@
+import React , {useState , useEffect}from 'react';
 import './style/navbar.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import DropDown from "./dropdown/Dropdown";
@@ -12,7 +13,7 @@ function Navbar(){
                 <li className="menu-item"> <FontAwesomeIcon icon={faIdCard}></FontAwesomeIcon> <span>{navbarData.goldtagservice}</span></li>
                 {navbarData.dropdownmenu.map((item)=>{
                     return(
-                        <li key={item.title} className="menu-item">
+                        <li className="menu-item">
                             <FontAwesomeIcon icon={item.icon}></FontAwesomeIcon>
                             <span>{item.title}</span>
                             <DropDown menu={item} />

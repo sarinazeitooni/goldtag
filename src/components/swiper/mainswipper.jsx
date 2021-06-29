@@ -4,7 +4,7 @@ import SwiperCore,{Pagination} from "swiper";
 import './style/mainswiper.scss';
 import 'swiper/swiper-bundle.css';
 import SwiperImg from './images/swiperImg';
-function MainSwiper() {
+function MainSwipper() {
     SwiperCore.use([
         Pagination
       ]);
@@ -21,7 +21,7 @@ function MainSwiper() {
                 {
                     SwiperImg.map((item)=>{
                         return(
-                            <SwiperSlide key={item.id}>
+                            <SwiperSlide>
                                 <div className='swiper-item' style={{backgroundRepeat: 'no-repeat', backgroundImage : `url(${item})`}} ></div>
                             </SwiperSlide>
                         )
@@ -32,4 +32,4 @@ function MainSwiper() {
         </div>
     )
 }
-export default MainSwiper;
+export default MainSwipper;

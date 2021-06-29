@@ -8,18 +8,6 @@
       color: #be9243;
     }
   }
-  .property-container{
-    @media screen and (max-width: 600px){
-      height: 350px;
-    }
-    height: 230px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    li{
-      width: 44%;
-    }
-  }
   ul {
     width: 85%;
     margin: 10px 0;

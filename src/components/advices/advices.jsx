@@ -7,9 +7,7 @@ import Divider from "../divider/Divider";
 function Advices(){
     return(
         <div className="advices-container">
-            <div className="advice-pic">
-                <img src="https://cdn.goldtag.net/frontend/assets/v1/desktop/build/images/icon-subscribe.svg" alt=""/>
-            </div>
+            <div className="advice-pic"><img src="https://cdn.goldtag.net/frontend/assets/v1/desktop/build/images/icon-subscribe.svg" alt=""/></div>
                 <div className='advice-text'>{AdviceTexts.enterEmail}</div>
             <div className="advices-input-container">
                 <div className="advices-input-items advice-icon">

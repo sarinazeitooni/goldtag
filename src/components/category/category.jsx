@@ -14,7 +14,7 @@ function Category (){
                     {
                         categoryData.images.map((item)=>{
                             return(
-                                <div className='category-images' style={{backgroundRepeat: 'no-repeat',backgroundImage : `url(${item})`}}></div>
+                                <div  style={{backgroundRepeat: 'no-repeat',backgroundImage : `url(${item})`}}></div>
                             )
                         })
                     }

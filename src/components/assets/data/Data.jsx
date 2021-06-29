@@ -4,11 +4,8 @@ let data = [
         className : 'gridfirst',
         id:3,
         comments : [{
-            likes : {
-                id:1,
-                like : 4,
-                dislike : 1,
-                },
+            like : 4,
+            dislike : 1,
                 name: 'مه رضایی',
                 date : '1400/02/31',
                 customercomment : 'کسانی ک استفاده کردند از جنسش بگن لطفا نمیریزه؟ حالت چسبناک داره یانه؟',
@@ -62,33 +59,26 @@ let data = [
         id: 2,
         isAvailable: false,
         comments : [{
-            likes : {
-                id:2,
-                like : 4,
-                dislike : 1,
-            },
+            id : 1,
+            like : 6,
+            dislike : 5,
             name: 'امیرحسین محبی',
             date : '1400/02/02',
             customercomment : 'از دستفروش کنار خیابون تیشرت میگیریم حداقل یه نایلون داره دوتا تیشرت گرفتم بدون هیچ نایلونی گذاشتین تو کارتون. همه چیو فذای قیمت نکنید !',
             goldcomment : 'دوست عزیز خیلی متاسفم که نتونستیم نظرتونو جلب کنیم'
         },
-        {
-            likes : {
-                id:3,
-                like : 4,
-                dislike : 1,
-            },
+        { id : 2,
+            like : 1,
+            dislike : 0,
             name : 'علی محمدپور',
             date : '1400/02/29',
             customercomment : 'با درود؛ انتقاد بنده نیز همین ااست چرا لباس های سفارش شده در پلاستیک یا پوشش مناسبی قرار نمی گیرد. تمامی سفارشات بنده درون کارتون همراه با سایر لوازم و سفارشات قرار گرفته گویا هیج گونه کنترل کیفی و نظارتی با توجه به شرایط موجود وجود ندارد.',
             goldcomment : 'سلام علی جان در تلاشیم تا این مشکلات حل بشه'
         },
         {
-            likes : {
-                id:4,
-                like : 4,
-                dislike : 1,
-            },
+            id : 3,
+            like : 1,
+            dislike : 0,
             name : 'ابراهیم کوشا',
             date : '1400/02/02',
             customercomment : 'روی تی شرت رد جوهر خودکار هست آرم نایک هم صورتیه نه نارنجی لطفا با مشخصات صحیح آگهی بفرمایید',
@@ -142,33 +132,27 @@ let data = [
         id:1,
         isAvailable: false,
         comments : [{
-            likes : {
-                id:5,
-                like : 4,
-                dislike : 1,
-            },
+            id : 1,
+            like : 1,
+            dislike : 0,
             name: 'ام احمدی',
             date : '1400/02/30',
             customercomment : 'کسانیکه بدستشان رسیده لطفا اظهار نظر کنید ممنون',
             goldcomment : 'سلام متظر نظر کاربران عزیز گلدتگ هستیم'
         },
         {
-            likes : {
-                id:6,
-                like : 4,
-                dislike : 1,
-            },
+            id : 2,
+            like : 1,
+            dislike : 0,
             name : 'Masoud Ghahremani',
             date : '1400/02/29',
             customercomment : 'گلدان ابکاری شده؟آب میشه داخلش ریخت؟',
             goldcomment : 'بله دوست عزیز'
         },
         {
-            likes : {
-                id:7,
-                like: 5,
-                dislike : 2
-            },
+            id : 3,
+            like : 1,
+            dislike : 0,
             name : 'سارا خلجی',
             date : '1400/03/03',
             customercomment : 'هر دو طرف گلدان گل داره؟',
@@ -223,33 +207,27 @@ let data = [
         id: 4,
         isAvailable: false,
         comments : [{
-            likes : {
-                id:8,
-                like : 4,
-                dislike : 1,
-            },
+            id : 1,
+            like : 1,
+            dislike : 0,
             name: 'امیرحسین محبی',
             date : '1400/02/02',
             customercomment : 'از دستفروش کنار خیابون تیشرت میگیریم حداقل یه نایلون داره دوتا تیشرت گرفتم بدون هیچ نایلونی گذاشتین تو کارتون. همه چیو فذای قیمت نکنید !',
             goldcomment : 'دوست عزیز خیلی متاسفم که نتونستیم نظرتونو جلب کنیم'
         },
         {
-            likes : {
-                id:9,
-                like : 4,
-                dislike : 1,
-            },
+            id : 2,
+            like : 1,
+            dislike : 0,
             name : 'علی محمدپور',
             date : '1400/02/29',
             customercomment : 'با درود؛ انتقاد بنده نیز همین ااست چرا لباس های سفارش شده در پلاستیک یا پوشش مناسبی قرار نمی گیرد. تمامی سفارشات بنده درون کارتون همراه با سایر لوازم و سفارشات قرار گرفته گویا هیج گونه کنترل کیفی و نظارتی با توجه به شرایط موجود وجود ندارد.',
             goldcomment : 'سلام علی جان در تلاشیم تا این مشکلات حل بشه'
         },
         {
-            likes : {
-                id:10,
-                like : 4,
-                dislike : 1,
-            },
+            id : 3,
+            like : 1,
+            dislike : 0,
             name : 'ابراهیم کوشا',
             date : '1400/02/02',
             customercomment : 'روی تی شرت رد جوهر خودکار هست آرم نایک هم صورتیه نه نارنجی لطفا با مشخصات صحیح آگهی بفرمایید',
@@ -300,36 +278,30 @@ let data = [
         beenPurchased : '20 فروخته شده'
     },
     {
-        id: 4,
+        id: 2,
         isAvailable: false,
         comments : [{
-            likes : {
-                id:11,
-                like : 4,
-                dislike : 1,
-            },
+            id : 1,
+            like : 1,
+            dislike : 0,
             name: 'امیرحسین محبی',
             date : '1400/02/02',
             customercomment : 'از دستفروش کنار خیابون تیشرت میگیریم حداقل یه نایلون داره دوتا تیشرت گرفتم بدون هیچ نایلونی گذاشتین تو کارتون. همه چیو فذای قیمت نکنید !',
             goldcomment : 'دوست عزیز خیلی متاسفم که نتونستیم نظرتونو جلب کنیم'
         },
         {
-            likes : {
-                id:12,
-                like : 4,
-                dislike : 1,
-            },
+            id : 2,
+            like : 1,
+            dislike : 0,
             name : 'علی محمدپور',
             date : '1400/02/29',
             customercomment : 'با درود؛ انتقاد بنده نیز همین ااست چرا لباس های سفارش شده در پلاستیک یا پوشش مناسبی قرار نمی گیرد. تمامی سفارشات بنده درون کارتون همراه با سایر لوازم و سفارشات قرار گرفته گویا هیج گونه کنترل کیفی و نظارتی با توجه به شرایط موجود وجود ندارد.',
             goldcomment : 'سلام علی جان در تلاشیم تا این مشکلات حل بشه'
         },
         {
-            likes : {
-                id:13,
-                like : 4,
-                dislike : 1,
-            },
+            id : 3,
+            like : 1,
+            dislike : 0,
             name : 'ابراهیم کوشا',
             date : '1400/02/02',
             customercomment : 'روی تی شرت رد جوهر خودکار هست آرم نایک هم صورتیه نه نارنجی لطفا با مشخصات صحیح آگهی بفرمایید',
@@ -384,33 +356,27 @@ let data = [
         id:5,
         isAvailable: false,
         comments : [{
-            likes : {
-                id:14,
-                like : 4,
-                dislike : 1,
-            },
+            id : 1,
+            like : 3,
+            dislike : 0,
             name: 'ام احمدی',
             date : '1400/02/30',
             customercomment : 'کسانیکه بدستشان رسیده لطفا اظهار نظر کنید ممنون',
             goldcomment : 'سلام متظر نظر کاربران عزیز گلدتگ هستیم'
         },
         {
-            likes : {
-                id:15,
-                like : 4,
-                dislike : 1,
-            },
+            id : 2,
+            like : 1,
+            dislike : 0,
             name : 'Masoud Ghahremani',
             date : '1400/02/29',
             customercomment : 'گلدان ابکاری شده؟آب میشه داخلش ریخت؟',
             goldcomment : 'بله دوست عزیز'
         },
         {
-            likes : {
-                id:16,
-                like : 4,
-                dislike : 1,
-            },
+            id : 3,
+            like : 2,
+            dislike : 0,
             name : 'سارا خلجی',
             date : '1400/03/03',
             customercomment : 'هر دو طرف گلدان گل داره؟',
@@ -465,33 +431,27 @@ let data = [
         id: 6,
         isAvailable: false,
         comments : [{
-            likes : {
-                id:17,
-                like : 4,
-                dislike : 1,
-            },
+            id : 1,
+            like : 1,
+            dislike : 0,
             name: 'امیرحسین محبی',
             date : '1400/02/02',
             customercomment : 'از دستفروش کنار خیابون تیشرت میگیریم حداقل یه نایلون داره دوتا تیشرت گرفتم بدون هیچ نایلونی گذاشتین تو کارتون. همه چیو فذای قیمت نکنید !',
             goldcomment : 'دوست عزیز خیلی متاسفم که نتونستیم نظرتونو جلب کنیم'
         },
         {
-            likes : {
-                id:18,
-                like : 4,
-                dislike : 1,
-            },
+            id : 2,
+            like : 1,
+            dislike : 0,
             name : 'علی محمدپور',
             date : '1400/02/29',
             customercomment : 'با درود؛ انتقاد بنده نیز همین ااست چرا لباس های سفارش شده در پلاستیک یا پوشش مناسبی قرار نمی گیرد. تمامی سفارشات بنده درون کارتون همراه با سایر لوازم و سفارشات قرار گرفته گویا هیج گونه کنترل کیفی و نظارتی با توجه به شرایط موجود وجود ندارد.',
             goldcomment : 'سلام علی جان در تلاشیم تا این مشکلات حل بشه'
         },
         {
-            likes : {
-                id:19,
-                like : 6,
-                dislike : 1,
-            },
+            id : 3,
+            like : 1,
+            dislike : 1,
             name : 'ابراهیم کوشا',
             date : '1400/02/02',
             customercomment : 'روی تی شرت رد جوهر خودکار هست آرم نایک هم صورتیه نه نارنجی لطفا با مشخصات صحیح آگهی بفرمایید',
@@ -545,33 +505,27 @@ let data = [
         id:9,
         isAvailable: false,
         comments : [{
-            likes : {
-                id:20,
-                like : 4,
-                dislike : 1,
-            },
+            id : 1,
+            like : 1,
+            dislike : 0,
             name: 'ام احمدی',
             date : '1400/02/30',
             customercomment : 'کسانیکه بدستشان رسیده لطفا اظهار نظر کنید ممنون',
             goldcomment : 'سلام متظر نظر کاربران عزیز گلدتگ هستیم'
         },
         {
-            likes : {
-                id:21,
-                like : 4,
-                dislike : 1,
-            },
+            id : 2,
+            like : 1,
+            dislike : 0,
             name : 'Masoud Ghahremani',
             date : '1400/02/29',
             customercomment : 'گلدان ابکاری شده؟آب میشه داخلش ریخت؟',
             goldcomment : 'بله دوست عزیز'
         },
         {
-            likes : {
-                id:22,
-                like : 4,
-                dislike : 1,
-            },
+            id : 3,
+            like : 1,
+            dislike : 0,
             name : 'سارا خلجی',
             date : '1400/03/03',
             customercomment : 'هر دو طرف گلدان گل داره؟',
@@ -626,33 +580,27 @@ let data = [
         id:8,
         isAvailable: false,
         comments : [{
-            likes : {
-                id:23,
-                like : 4,
-                dislike : 1,
-            },
+            id : 1,
+            like : 1,
+            dislike : 0,
             name: 'ام احمدی',
             date : '1400/02/30',
             customercomment : 'کسانیکه بدستشان رسیده لطفا اظهار نظر کنید ممنون',
             goldcomment : 'سلام متظر نظر کاربران عزیز گلدتگ هستیم'
         },
         {
-            likes : {
-                id:24,
-                like : 4,
-                dislike : 1,
-            },
+            id : 2,
+            like : 1,
+            dislike : 0,
             name : 'Masoud Ghahremani',
             date : '1400/02/29',
             customercomment : 'گلدان ابکاری شده؟آب میشه داخلش ریخت؟',
             goldcomment : 'بله دوست عزیز'
         },
         {
-            likes : {
-                id:25,
-                like : 4,
-                dislike : 1,
-            },
+            id : 3,
+            like : 1,
+            dislike : 0,
             name : 'سارا خلجی',
             date : '1400/03/03',
             customercomment : 'هر دو طرف گلدان گل داره؟',
@@ -705,14 +653,10 @@ let data = [
     },
     {
         className : 'gridSecond',
-        likes : {
-            id:26,
-            like : 4,
-            dislike : 1,
-        },
+        id:7,
         isAvailable: true,
         comments : [{
-            id : 19,
+            id : 1,
             like : 1,
             dislike : 0,
             name: 'مه رضایی',
@@ -767,11 +711,9 @@ let data = [
         className : 'gridThird',
         id:10,
         comments : [{
-            likes : {
-                id:27,
-                like : 3,
-                dislike : 2,
-            },
+            id : 1,
+            like : 1,
+            dislike : 0,
             name: 'مه رضایی',
             date : '1400/02/31',
             customercomment : 'کسانی ک استفاده کردند از جنسش بگن لطفا نمیریزه؟ حالت چسبناک داره یانه؟',

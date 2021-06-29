@@ -18,7 +18,7 @@ function Goldtags() {
                 </MobileView>
                 <div className="cards-container">
                     {data.map((item) =>
-                        <Card key={item.id} id={item.id} currency='تومان' beenPurchased={item.beenPurchased} available={item.isAvailable}
+                        <Card id={item.id} currency='تومان' beenPurchased={item.beenPurchased} available={item.isAvailable}
                               size={'card-container'} className={item.className} cover={item.cover} title={item.title}
                               subtitle={item.subtitle} price={item.price} purchased={item.purchased}
                               newprice={item.newprice}/>

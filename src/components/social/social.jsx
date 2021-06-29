@@ -7,13 +7,13 @@ function Social(){
             {
                 socialData.map((item)=>{
                     return(
-                        <div key={item.title} className={item.classes}>
+                        <div className={item.classes}>
                             <div className="social-text">
                                 <div className="social-title">{item.title}</div>
                                 <div className="social-subtitle">{item.subtitle}</div>
                             </div>
                             <div className="social-icon">
-                                <img alt='item-pic' src={item.img}/>
+                                <img src={item.img}/>
                             </div>
                         </div>
                     )

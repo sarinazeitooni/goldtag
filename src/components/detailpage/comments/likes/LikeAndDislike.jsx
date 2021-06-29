@@ -5,20 +5,15 @@ import ThumbDownOutlinedIcon from '@material-ui/icons/ThumbDownOutlined';
 import ThumbUpAltOutlinedIcon from '@material-ui/icons/ThumbUpAltOutlined';
 import actionTypes from "../../../../redux/actionTypes/actionTypes";
 import ls from 'local-storage';
-function LikeAndDislike({likeId,like,dislike}){
+function LikeAndDislike({like,dislike}){
+    localStorage.setItem('like' , like);
+    localStorage.setItem('dislike' , dislike);
     const dispatch = useDispatch();
-    const likeItem = useSelector((state) => state.likes.likes.id);
-    let likeNum = useSelector((state) => state.likes.likes.id.like)
-    let dislikeNum = useSelector((state) => state.likes.dislikes.id.dislike)
-    const dislikeItem = useSelector((state) => state.likes.dislikes.id);
-    // let likes = (likeItem == likeId) ? likeNum : 0;
-    // let dislikes =(dislikeItem == likeId) ? dislikeNum : 0;
+    let likes = useSelector((state) => state.likes.like);
+    let dislikes = useSelector((state) => state.likes.dislike);
     function Dispatch(action){
         dispatch({
-            type : action ,
-            payload: {
-                likeId
-            }
+            type : action
         })
     }
     function addDislike(){
@@ -31,11 +26,11 @@ function LikeAndDislike({likeId,like,dislike}){
         <div className='like-dislike-container'>
             <button className='like-buttons' onClick={addDislike}>
                 <ThumbUpAltOutlinedIcon/>
-                <span className='counter-container'>{likeNum}</span>
+                <span className='counter-container'>{likes}</span>
             </button>
             <button className='like-buttons' onClick={addLike}>
                 <ThumbDownOutlinedIcon/>
-                <span className='counter-container'>{dislikeNum}</span>
+                <span className='counter-container'>{dislikes}</span>
             </button>
         </div>
     )
