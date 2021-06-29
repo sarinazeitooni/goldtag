@@ -6,7 +6,7 @@ function Features(){
         <div className="features-container">
             {featuresData.map((item)=>{
                 return(
-                    <div className="feature-item">
+                    <div key={item.title} className="feature-item">
                         <div className="feature-icon">
                             <img src={item.img}alt="feature"/>
                         </div>

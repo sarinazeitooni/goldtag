@@ -7,7 +7,7 @@ function Social(){
             {
                 socialData.map((item)=>{
                     return(
-                        <div className={item.classes}>
+                        <div key={item.title} className={item.classes}>
                             <div className="social-text">
                                 <div className="social-title">{item.title}</div>
                                 <div className="social-subtitle">{item.subtitle}</div>

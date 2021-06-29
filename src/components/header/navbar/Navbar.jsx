@@ -12,7 +12,7 @@ function Navbar(){
                 <li className="menu-item"> <FontAwesomeIcon icon={faIdCard}></FontAwesomeIcon> <span>{navbarData.goldtagservice}</span></li>
                 {navbarData.dropdownmenu.map((item)=>{
                     return(
-                        <li className="menu-item">
+                        <li key={item.title} className="menu-item">
                             <FontAwesomeIcon icon={item.icon}></FontAwesomeIcon>
                             <span>{item.title}</span>
                             <DropDown menu={item} />
