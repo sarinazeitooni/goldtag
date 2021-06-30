@@ -1,0 +1,41 @@
+.position{
+            position: absolute;
+            top: -7px;
+}
+.advices-container{
+    margin-top: 50px;
+    div{
+        color: #616161;
+        text-align: center;
+    }
+    .advice-pic{
+        img{
+            margin-bottom: 25px;
+        }
+    }
+    .advices-input-container{
+        position: relative;
+        .advice-icon{
+            right: 40%;
+            @extend .position;
+        }
+        .advice-text{
+            @extend .position;
+            left: 40%;
+            font-size: .75rem;
+        }
+        .advices-input-items{
+            margin: 15px;
+            &:last-child{
+                color: #436fbe;
+            }
+            .advice-input{
+                font-family: 'goldtagFont';
+                padding: 7px;
+                border-radius: .25rem;
+                border: 1px solid rgba(0,0,0,.1);
+                width: 20%;
+            }
+        }
+    }
+}

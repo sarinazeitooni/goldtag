@@ -1,0 +1,33 @@
+.footer{
+    .footer-container{
+        @media screen and (max-width:600px){
+            grid-template-columns: unset !important;
+            margin: 10px !important;
+        }
+        @media screen and (min-width: 1450px){
+            width: 50%;
+        }
+        width: 92%;
+        display: grid;
+        margin: 50px auto;
+        grid-template-columns: 20% 25% 30% 25%;
+        .footer-sections{
+            text-align: right;
+            h4{
+                margin-right: 15px;
+            }
+            .footer-item-container{
+                .footer-item{
+                    @media screen and (max-width:600px){
+                        width: 130px !important;
+                        line-height: 20px;
+                    }
+                    margin:15px;
+                    width: 250px;;
+                    color: #616161;
+                    font-size: .875rem;
+                }
+            }
+        }
+    }
+}

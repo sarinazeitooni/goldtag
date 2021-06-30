@@ -1,5 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`footer component  footer bottom should match snap shot 1`] = `ShallowWrapper {}`;
-
-exports[`footer component footer should match snap shot 1`] = `ShallowWrapper {}`;

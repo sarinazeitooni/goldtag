@@ -1,0 +1,67 @@
+.detail-container{
+    display: grid;
+    grid-template-columns: 65% 35%;
+    grid-gap: 40px;
+    width: 82%;
+    margin: 10px 5%;
+    @media screen and (max-width:600px){
+        display: unset;
+        width: 100%;
+        margin: 10px auto;
+        .side-section-container{
+            ul,hr{
+                width: 95%;
+            }
+        }
+
+    .product-charity{
+        margin: 5px 10px
+    }
+    .price-container-btn, .available-btn{
+        width: 300px !important;
+        margin: 5px 10px !important;
+    }
+    .label-info-container{
+        .label-info{
+            line-height: 15px;
+        }
+        margin: 3px 10px;
+        grid-template-columns: 145px 145px !important;
+        grid-gap: 10px !important;
+    }
+    .sharing-container{
+        background: #f3f3f3;
+        padding: 1rem;
+        border-radius: .25rem;
+        text-align: center;
+        height: 90px;
+        width: 94%;
+        margin: 5px 10px 20px 10px !important;
+        display: flex !important;
+        flex-direction: column;
+        div{
+            margin: 5px 0;
+        }
+
+    }
+    .features-container{
+        grid-template-columns: 25% 25% 25% 25% !important;
+    }
+    .description{
+        margin: 5px 10px;
+        p{
+            color: #75787b;
+            font-size: .9rem;
+        }
+    }
+    .side-section-container{
+        ul{
+            width: 90% !important;
+            margin-right: 15px;
+        }
+    }
+    .map-img{
+        margin: 0 !important;
+    }
+}
+}

@@ -1,0 +1,41 @@
+.menu-item{
+    .drop-down{
+        border-radius: 4px;
+        overflow: hidden;
+        z-index: 2;
+        position: absolute;
+        display: none;
+        grid-template-columns: 60% 50%;
+        top: 36px;
+        right:87px;
+        margin:0 20px;
+        width:1135px;
+        height: 200px;
+        background-color: white;
+        .drop-down-image{
+            transform: skewX(15deg);
+            background: #f2f0ed;
+            position: relative;
+            content: "";
+            .drop-down-btn{
+                padding: 5px 10px;
+                transform: skewX(-15deg);
+                border: 1px solid rgba(0,0,0,.1);
+                background-color: hsla(0,0%,100%,.72);
+                font-size: .9rem;
+                color: #000;
+                position: absolute;
+                bottom: 30px;
+                font-family: goldtagFont;
+                right: -30px;
+                border-radius: 30px;
+                padding: .5rem 1.5rem;
+            }
+            img{
+                transform: skewX(-15deg);
+                width: 60%;
+                height: 90%;
+            }
+        }
+    }
+}

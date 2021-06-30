@@ -1,0 +1,36 @@
+@import '../dropdown/style/drop-down';
+.sticky {
+        position: fixed;
+        top: 0;
+      }
+      #navbar{
+        .menu-container{
+            @media screen and (min-width:1450px){
+                margin: 0 auto;
+                width: 60%;
+            }
+            display: flex;
+            font-size: 13px;
+            padding: 0px 115px;
+            justify-content: space-between;
+            position: relative;
+            .menu-item{
+                padding: 8px;
+                font-family: goldtagFont;
+                white-space: nowrap;
+                text-align: center;
+                transition: all .2s;
+                color: black;
+                cursor: pointer;
+                &:last-child , &:nth-child(8){
+                    color: #436fbe;
+                }
+                &:hover{
+                    .drop-down{
+                        display: grid;
+                    }
+                    color: #be9243;
+                }
+            }
+        }
+      }

@@ -1,5 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`header component header should match snap shot 1`] = `ShallowWrapper {}`;
-
-exports[`header component responsive header should match snap shot 1`] = `ShallowWrapper {}`;

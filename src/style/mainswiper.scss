@@ -1,0 +1,15 @@
+.swiperContainer{
+  @media screen and (min-width:1450px){
+    width: 65%;
+    margin: 25px auto;
+    }
+    margin:25px 8%;
+    .swiper-item{
+        width: 100%;
+        border-radius: 5px;
+    }
+}
+  .swiper-pagination-bullet-active {
+    background-color: white;
+    color: white;
+  }

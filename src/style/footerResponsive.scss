@@ -1,0 +1,32 @@
+@media screen and (max-width:600px){
+    .footer-container{
+        grid-template-columns: unset !important;
+        margin: 10px !important;
+        grid-template-areas: 'goltag tamas'
+                              'social etebar';
+        .footer-item{
+            width: 130px !important;
+            line-height: 20px;
+        }
+        
+    }
+    .footer-bottom{
+        margin: 15px !important;
+        grid-template-columns: unset !important;
+        .footer-bottom-text{
+            display: block;
+        }
+    }
+    .goldtag{
+        grid-area: goltag;
+    }
+    .social{
+        grid-area: social;
+    }
+    .tamas{
+        grid-area: tamas;
+    }
+    .etebar{
+        grid-area: etebar;
+    }
+}

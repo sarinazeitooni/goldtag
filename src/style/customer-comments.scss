@@ -1,0 +1,44 @@
+.customer{
+    .customer-info{
+        @media screen and (max-width:600px){
+        grid-template-columns: 15% 85%;
+        }
+        display: grid;
+        grid-template-columns: 6% 94%;
+        .customer-text-info{
+            .customer-name{
+                font-weight: 400;
+                font-size: 1rem;
+                color: #333;
+            }
+            .date{
+                margin: -8px 0.6rem 10px 0;
+                color: #888;
+                font-size: .75rem;
+            }
+        }
+    }
+    .customer-comment{
+        margin-right: 15px;
+        position: relative;
+        &::before{
+                    content: "";
+                    display: block;
+                    width: 1em;
+                    height: 1.5em;
+                    position: absolute;
+                    top: 0;
+                    z-index: 0;
+            right: -1em;
+            border-left: 1em solid #e6e6e6;
+            border-top-left-radius: 100%;
+        }
+        background-color: #e6e6e6;
+        color: #444;
+        padding: 1rem;
+        font-size: .9rem;
+        margin-left: 25%;
+        margin-right: 5%;
+        border-radius: 8px;
+    }
+}

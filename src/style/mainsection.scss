@@ -1,0 +1,42 @@
+.mainsection-container{
+    @media screen and (min-width:1450px){
+        width: 80%;
+        margin-right: 20%;
+    }
+    width: 100%;
+    height: 100%;
+    .address{
+        padding: 0 0 .4rem 0;
+        text-align: right;
+        font-size: .8rem;
+        color: #797979;
+        margin-bottom: 3px;
+    }
+    .swiper-image-detail{
+        width: 103%;
+        height: 100%;
+    }
+    .swiper-button-next,.swiper-button-prev{
+        height: 3rem !important;
+        width: 3rem !important;
+        padding: 0 .5rem;
+        opacity: .75;
+        border-radius: 50%;
+        background-color: #fff;
+        color: #75787b !important;
+        &::before, &::after{
+            font-size: 25px !important;
+        }
+    }
+    .description{
+        color: #75787b;
+        font-size: .85rem;
+        letter-spacing: .02em;
+        p{
+            margin: 8px 0 60px 0;
+        }
+        hr{
+            width: 100% !important;
+        }
+    }
+}

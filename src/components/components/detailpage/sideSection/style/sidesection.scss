@@ -1,0 +1,35 @@
+.side-section-container,.mainsection-container {
+    @media screen and (min-width:1450px){
+        hr{
+            width: 380px;
+        }
+    }
+    .map-img{
+        @media screen and (max-width:600px){
+            width: 100%;
+        }
+        margin: 10px;
+    }
+    .address-phone{
+        color: #75787b;
+        width: 63%;
+        font-size: .85rem;
+        margin: 10px;
+        svg{
+            color: #436fbe;
+        }
+    }
+    .item-tags-container{
+        display: flex;
+        flex-direction: row;
+        margin: 8px 0;
+        .tag-btn{
+            font-size: .85em;
+            color: #777;
+            background-color: #f0f0f0;
+            border-radius: 4px;
+            padding: .3em .9em;
+            margin: 0 0 .5em .5em;
+        }
+    }
+}
