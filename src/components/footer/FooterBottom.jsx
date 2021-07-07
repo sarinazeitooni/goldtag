@@ -16,7 +16,7 @@ function FooterBottom(){
                         {
                             footerTexts.leftFooter.map((item)=>{
                             return(
-                                <div>
+                                <div key={item}>
                                     {item}
                                 </div>
                             )
