@@ -7,18 +7,18 @@ import Card from '../card/card';
 import {MobileView} from 'react-device-detect';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faTag} from "@fortawesome/free-solid-svg-icons";
+import { v4 as uuidv4 } from 'uuid';
 function Goldtags() {
     return (
         <div>
             <div className="tags-container">
-                <FontAwesomeIcon className='tag-icon' icon={faTag} />
                 <h3>{goldtagTexts.last24h}</h3>
                 <MobileView className='goldtag-btn'>
                     <button className='more-m'>{goldtagTexts.more}</button>
                 </MobileView>
                 <div className="cards-container">
                     {data.map((item) =>
-                        <Card id={item.id} currency='تومان' beenPurchased={item.beenPurchased} available={item.isAvailable}
+                        <Card key={uuidv4()} id={item.id} currency='تومان' beenPurchased={item.beenPurchased} available={item.isAvailable}
                               size={'card-container'} className={item.className} cover={item.cover} title={item.title}
                               subtitle={item.subtitle} price={item.price} purchased={item.purchased}
                               newprice={item.newprice}/>

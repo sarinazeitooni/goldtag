@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React from 'react';
 import {useDispatch,useSelector } from "react-redux";
 import Comments from "./Comments";
 import Rating from "./Rating";
@@ -30,12 +30,12 @@ function CommentsContainer({id}){
     localStorage.setItem('comments' , JSON.stringify(id.comments));
     return(
         <div className='comments-container'>
-                <a className={ (Tab) ? "clicked Tabs" : 'unClicked Tabs'} onClick={showComments}>
+                <span className={ (Tab) ? "clicked Tabs" : 'unClicked Tabs'} onClick={showComments}>
                     <FontAwesomeIcon icon={faComments}></FontAwesomeIcon>{commentTexts.QandA}
-                </a>
-                <a className={ (Tab) ? 'unClicked Tabs' : "clicked Tabs"} onClick={showRating}>
+                </span>
+                <span className={ (Tab) ? 'unClicked Tabs' : "clicked Tabs"} onClick={showRating}>
                     <FontAwesomeIcon icon={faComment}></FontAwesomeIcon>{commentTexts.comments}
-                </a>
+                </span>
                 <hr></hr>
             {(!Tab) ? <Comments items={id}/> : ''}
             <Rating/>

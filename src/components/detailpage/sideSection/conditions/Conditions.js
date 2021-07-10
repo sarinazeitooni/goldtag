@@ -3,6 +3,7 @@ import {faBook} from "@fortawesome/free-solid-svg-icons";
 import {BrowserView} from "react-device-detect";
 import Divider from "../../../divider/Divider";
 import React from "react";
+import {v4 as uuidv4} from "uuid";
 
 function Conditions({id}){
     return(
@@ -15,7 +16,7 @@ function Conditions({id}){
                 {
                     id.items.map((item)=>{
                         return(
-                            <li className={item.class}>{item.text}</li>
+                            <li key={uuidv4()} className={item.class}>{item.text}</li>
                         )
                     })
                 }

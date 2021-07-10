@@ -1,10 +1,9 @@
-import React, {useState} from 'react';
+import React from 'react';
 import '../style/like-and-dislike.scss';
 import {useDispatch, useSelector} from "react-redux";
 import ThumbDownOutlinedIcon from '@material-ui/icons/ThumbDownOutlined';
 import ThumbUpAltOutlinedIcon from '@material-ui/icons/ThumbUpAltOutlined';
 import actionTypes from "../../../../redux/actionTypes/actionTypes";
-import ls from 'local-storage';
 function LikeAndDislike({like,dislike}){
     localStorage.setItem('like' , like);
     localStorage.setItem('dislike' , dislike);

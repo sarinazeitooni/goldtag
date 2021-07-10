@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faInfoCircle} from "@fortawesome/free-solid-svg-icons";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { Navigation} from 'swiper';
+import { v4 as uuidv4 } from 'uuid';
 import 'swiper/swiper-bundle.css';
 import '../../style/mainsection.scss'
 import 'swiper/components/navigation/navigation.scss';
@@ -26,8 +27,8 @@ function MainSection({id}){
                 {
                     swiperData.map((item)=>{
                         return(
-                            <SwiperSlide>
-                                <img className='swiper-image-detail' src={item} alt=""/>
+                            <SwiperSlide key={uuidv4()}>
+                                <img className='swiper-image-detail' src={item} alt="swiperdetail"/>
                             </SwiperSlide>
                         )
                     })

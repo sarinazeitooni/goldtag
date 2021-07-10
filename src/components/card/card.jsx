@@ -3,7 +3,7 @@ import './style/card.scss';
 import './style/price.scss';
 import { BrowserView, MobileView} from "react-device-detect";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faShoppingBag, faTractor, faTruckMoving} from "@fortawesome/free-solid-svg-icons";
+import { faShoppingBag, faTruckMoving} from "@fortawesome/free-solid-svg-icons";
 import soldout from '../assets/img/soldout.png';
 import {Link} from 'react-router-dom';
 import Divider from "../divider/Divider";
@@ -13,8 +13,8 @@ function Card({size,id,cover,title,subtitle,price,beenPurchased,newprice ,curren
          <div className={className}>
              {
                  (available)
-                     ? <div className='soldout-block'><img src={soldout}/></div>
-                     : <div className='soldout-none'><img src={soldout}/></div>
+                     ? <div className='soldout-block'><img alt='soldout' src={soldout}/></div>
+                     : <div className='soldout-none'><img alt='soldout' src={soldout}/></div>
              }
             <Link className="main-card-container" to={"/" + id}>
             <div className={size}>

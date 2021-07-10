@@ -4,6 +4,7 @@ import SwiperCore,{Pagination} from "swiper";
 import './style/mainswiper.scss';
 import 'swiper/swiper-bundle.css';
 import SwiperImg from './images/swiperImg';
+import { v4 as uuidv4 } from 'uuid';
 function MainSwipper() {
     SwiperCore.use([
         Pagination
@@ -15,19 +16,19 @@ function MainSwipper() {
         pagination={{
           clickable: true,
           renderBullet: (index, bullets) => {
-            return `<span class="${bullets}"></span>`;
+            return `<span className="${bullets}"></span>`;
           }
         }}>
                 {
                     SwiperImg.map((item)=>{
                         return(
-                            <SwiperSlide>
+                            <SwiperSlide key={uuidv4()}>
                                 <div className='swiper-item' style={{backgroundRepeat: 'no-repeat', backgroundImage : `url(${item})`}} ></div>
                             </SwiperSlide>
                         )
                     })
                 }
-                <div class="swiper-pagination"></div>
+                <div className="swiper-pagination"></div>
             </Swiper>
         </div>
     )

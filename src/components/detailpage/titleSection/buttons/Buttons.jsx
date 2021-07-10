@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faClock, faShoppingBag, faShoppingBasket, faStar} from "@fortawesome/free-solid-svg-icons";
+import {faClock, faShoppingBag, faShoppingBasket} from "@fortawesome/free-solid-svg-icons";
 import React from "react";
 function Buttons({data, titleSectionData}){
     return(

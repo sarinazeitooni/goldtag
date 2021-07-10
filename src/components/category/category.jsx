@@ -5,6 +5,7 @@ import Divider from '../divider/Divider';
 import {BrowserView , MobileView} from 'react-device-detect';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper-bundle.css';
+import { v4 as uuidv4} from 'uuid';
 function Category (){
     return(
         <div className="category-container">
@@ -14,7 +15,7 @@ function Category (){
                     {
                         categoryData.images.map((item)=>{
                             return(
-                                <div  style={{backgroundRepeat: 'no-repeat',backgroundImage : `url(${item})`}}></div>
+                                <div key={uuidv4()} style={{backgroundRepeat: 'no-repeat',backgroundImage : `url(${item})`}}></div>
                             )
                         })
                     }
@@ -26,7 +27,7 @@ function Category (){
                     {
                         categoryData.images.map((item)=>{
                             return(
-                                <SwiperSlide>
+                                <SwiperSlide key={uuidv4()}>
                                     <img className='category-swiper' alt='Baner' src={item}/>
                                 </SwiperSlide>
                             )

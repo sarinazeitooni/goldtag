@@ -1,4 +1,3 @@
-import titleSectionData from "../Data/titleSectionData";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faSchool} from "@fortawesome/free-solid-svg-icons";
 import {MobileView} from "react-device-detect";

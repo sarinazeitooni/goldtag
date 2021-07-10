@@ -7,14 +7,14 @@ function DropDown({menu}){
                     <div>
                         {menu.firstLine.map((item)=>{
                             return(
-                                <li>{item}</li>
+                                <li key={item}>{item}</li>
                             )
                         })}
                     </div>
                     <div>
                         {menu.secondLine.map((item)=>{
                             return(
-                                <li>{item}</li>
+                                <li key={item}>{item}</li>
                             )
                         })}
                     </div>
