@@ -14,7 +14,7 @@ function Advices(){
                 <FontAwesomeIcon icon={faMailBulk}/>
                 </div>
                 <div className="advices-input-items">
-                    <input type='text' className="advice-input" placeholder={AdviceTexts.emailPlaceHolder}></input>
+                    <input type='text' className="advice-input" placeholder={AdviceTexts.emailPlaceHolder}/>
                 </div>
                 <div className="advices-input-items advice-text">{AdviceTexts.getAnnounced}</div>
             </div>

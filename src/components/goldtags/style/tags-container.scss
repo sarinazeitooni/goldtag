@@ -9,8 +9,7 @@
         margin:0;
         .more-m{
             font-family: goldtagFont;
-            margin: -3px 3px 0 10px;
-            margin-right: 13px;
+            margin: -3px 13px 0 10px;
             font-size: .8em;
             color: #436fbe;
             border-radius: 4px;
@@ -20,7 +19,6 @@
     }
     &::before{
         @media screen and (max-width:600px){
-            background-color: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(251,248,230,0.1516981792717087) 35%, rgba(0,212,255,1) 100%);
             transform: none;
             height: 900%;
             top: 128%;

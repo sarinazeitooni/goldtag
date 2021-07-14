@@ -18,7 +18,7 @@ function Card({size,id,cover,title,subtitle,price,beenPurchased,newprice ,curren
              }
             <Link className="main-card-container" to={"/" + id}>
             <div className={size}>
-                <img alt="cover" className='card-image' src={cover}></img>
+                <img alt="cover" className='card-image' src={cover}/>
                 <div className="purchased"> <FontAwesomeIcon icon={faShoppingBag}/> {beenPurchased}</div>
                 <div className="card-title"> {title}
                 <MobileView> <FontAwesomeIcon className='car-icon' icon={faTruckMoving}/></MobileView>

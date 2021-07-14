@@ -15,7 +15,7 @@ function Category (){
                     {
                         categoryData.images.map((item)=>{
                             return(
-                                <div key={uuidv4()} style={{backgroundRepeat: 'no-repeat',backgroundImage : `url(${item})`}}></div>
+                                <div key={uuidv4()} style={{backgroundRepeat: 'no-repeat',backgroundImage : `url(${item})`}}/>
                             )
                         })
                     }

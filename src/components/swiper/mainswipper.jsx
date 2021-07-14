@@ -12,23 +12,16 @@ function MainSwipper() {
     return(
         <div className="swiperContainer">
             <Swiper
-            spaceBetween={1} slidesPerView={1} loop={true}
-        pagination={{
-          clickable: true,
-          renderBullet: (index, bullets) => {
-            return `<span className="${bullets}"></span>`;
-          }
-        }}>
+            spaceBetween={1} slidesPerView={1} loop={true} pagination>
                 {
                     SwiperImg.map((item)=>{
                         return(
                             <SwiperSlide key={uuidv4()}>
-                                <div className='swiper-item' style={{backgroundRepeat: 'no-repeat', backgroundImage : `url(${item})`}} ></div>
+                                <div className='swiper-item' style={{backgroundRepeat: 'no-repeat', backgroundImage : `url(${item})`}}/>
                             </SwiperSlide>
                         )
                     })
                 }
-                <div className="swiper-pagination"></div>
             </Swiper>
         </div>
     )

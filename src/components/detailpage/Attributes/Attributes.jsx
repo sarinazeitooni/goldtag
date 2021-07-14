@@ -4,6 +4,7 @@ import {faList} from "@fortawesome/free-solid-svg-icons";
 import propertyTexts from './texts/propertyTexts';
 import {BrowserView , MobileView} from 'react-device-detect';
 import Divider from "../../divider/Divider";
+import {v4 as uuidv4} from "uuid";
 function Attributes({data}){
     let properties = data.property;
     return(
@@ -16,7 +17,7 @@ function Attributes({data}){
                 {
                     properties.map((item)=>{
                         return(
-                        <li key={item}>{item}</li>
+                        <li key={uuidv4()}>{item}</li>
                         )
                     })
                 }

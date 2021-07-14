@@ -21,7 +21,7 @@ function Header() {
               <div className="search-box">
               <FontAwesomeIcon className="icon search-icon" icon={faSearch}/>
               <input className="search-input" type="text"
-              placeholder={headerTexts.inputPlaceHolder}></input>
+              placeholder={headerTexts.inputPlaceHolder}/>
                 <button className="search-btn">{headerTexts.search}</button>
               </div>
             </div>
@@ -30,7 +30,7 @@ function Header() {
                 <span>{headerTexts.location}</span>
                 <FontAwesomeIcon className="icon map-icon" icon={faMapMarker}/>
                 </button>
-              <img className="goldtagIcon" alt="golTagIcon" src="https://cdn.goldtag.net/frontend/assets/v1/desktop/build/images/logo.svg"></img>
+              <img className="goldtagIcon" alt="golTagIcon" src="https://cdn.goldtag.net/frontend/assets/v1/desktop/build/images/logo.svg"/>
             </div>
           </div>
           <Divider className=''/>

@@ -11,14 +11,14 @@ import TitleSectionFeatures from "./titleSectionFeatures/titleSectionFeatures";
 import TitleSharing from "./titleSharing/TitleSharing";
 import Titles from "./titles/Titles";
 import Buttons from './buttons/Buttons';
-import sharing from "./sharingContainer/sharing";
+import SharingContainer from "./sharingContainer/sharing";
 function TitleSection({ data }) {
     return (
         <div className='title-section'>
             <Titles id={data} titleSection={titleSectionData}/>
             <PurchaseButton data={data} id={titleSectionData}/>
             <Buttons data={data} titleSectionData={titleSectionData}/>
-            <sharing titleSectionData={titleSectionData}/>
+            <SharingContainer titleSectionData={titleSectionData}/>
             <TitleSectionFeatures id={titleSectionData}/>
             <TitleSharing id={titleSectionData}/>
         </div>

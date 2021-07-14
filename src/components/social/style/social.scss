@@ -39,24 +39,20 @@
             }
         }
     }
-    .telegram{
+    .telegram , .goldtag , .instagram , .charity{
         border: .25rem solid;
         border-image-slice: 1;
+    }
+    .telegram{
         border-image-source: linear-gradient(138deg,#61c4dc,#61c5dc 35%,#829dca 80%,#829dca);
     }
     .goldtag{
-        border: .25rem solid;
-        border-image-slice: 1;
         border-image-source:  linear-gradient(138deg,#cdab68,#cdab68 35%,#bc9d5f 80%,#bc9d5f);
     }
     .instagram{
-        border: .25rem solid;
-        border-image-slice: 1;
         border-image-source:linear-gradient(123deg,#b260ae,#b260ae -20%,#f17768 88%,#f87960);
     }
     .charity{
-        border: .25rem solid;
-        border-image-slice: 1;
         border-image-source:linear-gradient(99deg,#91c4aa,#95c2a9 -65%,#ee8f8f 42%,#ee8f8f);
     }
 }

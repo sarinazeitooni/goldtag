@@ -1,7 +1,4 @@
-.position{
-            position: absolute;
-            top: -42px;
-}
+@import './upper-footer';
 .advices-container{
     margin-top: 30px;
     @media screen and (max-width: 600px){
@@ -25,6 +22,7 @@
             margin-bottom: 25px;
         }
     }
+
     .advices-input-container{
         position: relative;
         .advice-icon{
@@ -65,7 +63,4 @@
             }
         }
     }
-}
-.upper-footer-divider{
-    margin-top: 65px;
 }

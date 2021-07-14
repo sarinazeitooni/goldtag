@@ -6,9 +6,7 @@ import {v4 as uuidv4} from "uuid";
 function MainSwiper({swiperData}){
     SwiperCore.use([Navigation]);
     return(
-        <Swiper
-            navigation slidesPerView={1}
-        >
+        <Swiper navigation slidesPerView={1}>
             {
                 swiperData.map((item)=>{
                     return(

@@ -28,19 +28,15 @@
               transition: all .2s;
               color: black;
               cursor: pointer;
-
               &:first-child {
                 padding-right: 0;
               }
-
               &:last-child {
                 padding-left: 0;
               }
-
               &:last-child, &:nth-child(8) {
                 color: #436fbe;
               }
-
               &:hover {
                 .drop-down {
                   display: grid;

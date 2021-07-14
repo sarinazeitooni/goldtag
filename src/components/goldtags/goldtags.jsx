@@ -8,7 +8,7 @@ import {MobileView} from 'react-device-detect';
 import { v4 as uuidv4 } from 'uuid';
 function Goldtags() {
     return (
-        <div>
+        <React.Fragment>
             <div className="tags-container">
                 <h3>{goldtagTexts.last24h}</h3>
                 <MobileView className='goldtag-btn'>
@@ -22,10 +22,8 @@ function Goldtags() {
                               newprice={item.newprice}/>
                     )}
                 </div>
-
             </div>
-        </div>
-
+        </React.Fragment>
     )
 };
 export default Goldtags;

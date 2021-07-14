@@ -32,25 +32,16 @@
                     .colored-social{
                           .footer-item{
                                 span{
+                                    &:last-child{
+                                        color: #1f2d54 !important;
+                                    }
+                                    &:nth-child(3){
+                                        color: #951641 !important;
+                                    }
                                     &:first-child{
                                         svg{
                                             color: #37aee2 !important;
                                         }
-                                }
-                            }
-                        }
-                            .footer-item {
-                                span {
-                                    &:nth-child(3){
-                                    color: #951641 !important;
-                                }
-                            }
-                        }
-
-                            .footer-item {
-                                span {
-                                    &:last-child{
-                                    color: #1f2d54 !important;
                                 }
                             }
                         }

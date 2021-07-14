@@ -31,12 +31,12 @@ function CommentsContainer({id}){
     return(
         <div className='comments-container'>
                 <span className={ (Tab) ? "clicked Tabs" : 'unClicked Tabs'} onClick={showComments}>
-                    <FontAwesomeIcon icon={faComments}></FontAwesomeIcon>{commentTexts.QandA}
+                    <FontAwesomeIcon icon={faComments}/>{commentTexts.QandA}
                 </span>
                 <span className={ (Tab) ? 'unClicked Tabs' : "clicked Tabs"} onClick={showRating}>
-                    <FontAwesomeIcon icon={faComment}></FontAwesomeIcon>{commentTexts.comments}
+                    <FontAwesomeIcon icon={faComment}/>{commentTexts.comments}
                 </span>
-                <hr></hr>
+                <hr/>
             {(!Tab) ? <Comments items={id}/> : ''}
             <Rating/>
         </div>
