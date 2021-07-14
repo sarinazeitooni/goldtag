@@ -5,8 +5,6 @@ import data from '../assets/data/Data';
 import goldtagTexts from './texts/goldtagTexts'
 import Card from '../card/card';
 import {MobileView} from 'react-device-detect';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faTag} from "@fortawesome/free-solid-svg-icons";
 import { v4 as uuidv4 } from 'uuid';
 function Goldtags() {
     return (

@@ -16,7 +16,7 @@ function Attributes({data}){
                 {
                     properties.map((item)=>{
                         return(
-                        <li>{item}</li>
+                        <li key={item}>{item}</li>
                         )
                     })
                 }

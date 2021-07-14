@@ -21,7 +21,7 @@
       @media screen and (max-width:600px) {
         top: 309px;
       }
-      top: 425px;
+      top: 70%;
     }
     .new-price{
       @media screen and (min-width:610px){
@@ -29,8 +29,15 @@
       }
     }
     .card-image{
+
       @media screen and (min-width:610px){
-        height: 530px;
+        height: 519px;
+      }
+      @media screen and (min-width:2000px){
+        height: 674px;
+      }
+      @media screen and (max-width:1050px){
+        height: 400px;
       }
     }
   }

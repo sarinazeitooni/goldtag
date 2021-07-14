@@ -13,10 +13,9 @@
         text-align: center;
     }
     .category-item-container{
-        margin-top: 10px;
         display: grid;
         grid-template-columns: repeat(5,1fr);
-        margin: 0 auto;
+        margin:10px 11.2% 0 11.2%;
         width: 75%;
         div{
             height: 100px;
