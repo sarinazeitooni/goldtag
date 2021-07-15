@@ -16,7 +16,7 @@ function SideAddress({id}){
             <div className="address-phone"><FontAwesomeIcon icon={faPhone}/>{id.number}</div>
             <div className="address-phone"><FontAwesomeIcon icon={faMap}/>{id.fullAddress}</div>
             <MobileView>
-                <Comments id={id}/>
+                <Comments items={id}/>
             </MobileView>
             <h3><FontAwesomeIcon icon={faTag}/>{id.tags}</h3>
             <Divider className=''/>

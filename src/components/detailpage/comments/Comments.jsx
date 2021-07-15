@@ -5,7 +5,8 @@ import './style/comments-container.scss';
 import Comment from "./Comment";
 function Comments({items}){
     const data = items.comments;
-    console.log(data);
+
+
     return(
             <div className='QandA-container'>
                     {data.map((item)=>{
