@@ -2,9 +2,9 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faMap, faPhone, faSearchLocation, faTag} from "@fortawesome/free-solid-svg-icons";
 import Divider from "../../../divider/Divider";
 import {MobileView} from "react-device-detect";
-import Comments from "../../comments/Comments";
+import CommentsContainer from "../../comments/CommentsContainer";
 import React from "react";
-function SideAddress({id}){
+function SideAddress({id , comments}){
     return(
         <div>
             <br/>
@@ -16,7 +16,7 @@ function SideAddress({id}){
             <div className="address-phone"><FontAwesomeIcon icon={faPhone}/>{id.number}</div>
             <div className="address-phone"><FontAwesomeIcon icon={faMap}/>{id.fullAddress}</div>
             <MobileView>
-                <Comments items={id}/>
+                <CommentsContainer id={comments}/>
             </MobileView>
             <h3><FontAwesomeIcon icon={faTag}/>{id.tags}</h3>
             <Divider className=''/>

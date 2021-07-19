@@ -5,8 +5,6 @@ import './style/comments-container.scss';
 import Comment from "./Comment";
 function Comments({items}){
     const data = items.comments;
-
-
     return(
             <div className='QandA-container'>
                     {data.map((item)=>{
@@ -18,5 +16,6 @@ function Comments({items}){
                     })}
             </div>
     );
+
 }
 export default Comments

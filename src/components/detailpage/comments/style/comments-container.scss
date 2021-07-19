@@ -18,6 +18,10 @@
             border-right: 4px solid #5dbecd;
             padding: .65rem;
             border-radius: 4px;
+            @media screen and (max-width: 600px){
+                padding: .2rem;
+                margin: 15px;
+            }
             h3{
                 font-size: 1.25rem;
                 color: #17a2b8 !important;

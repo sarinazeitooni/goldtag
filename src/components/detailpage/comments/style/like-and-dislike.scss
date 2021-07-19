@@ -5,6 +5,9 @@
 }
 .like-dislike-container{
  margin:-13px 390px 0 0;
+  @media screen and (max-width: 600px){
+    margin: -45px 70px 0 0;
+  }
   .like-buttons{
     border: 1px solid #fff;
     border-radius: 40px;

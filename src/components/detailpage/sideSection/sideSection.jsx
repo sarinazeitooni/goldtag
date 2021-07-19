@@ -11,7 +11,7 @@ function SideSection({ id, clothes , description , itemTags}){
         <div className='side-section-container'>
             <Conditions id={sideSectionData}/>
             <SideSectionDescription clothes={clothes} description={description}/>
-            <SideAddress id={sideSectionData}/>
+            <SideAddress comments={id} id={sideSectionData}/>
             <Tags id={itemTags}/>
         </div>
     )
