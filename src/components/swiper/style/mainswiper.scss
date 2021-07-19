@@ -12,10 +12,10 @@
   }
     margin:25px 8%;
     .swiper-item{
-        background-size: cover;
+        background-size: contain;
         background-position: center;
       @media screen and (max-width: 600px){
-        height: 200px;
+        height: 170px;
       }
         height: 500px;
         width: 100%;
