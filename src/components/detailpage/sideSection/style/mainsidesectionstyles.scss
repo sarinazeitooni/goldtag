@@ -8,6 +8,13 @@
       color: #be9243;
     }
   }
+  .property-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 250px;
+    width: 40%;
+  }
   ul {
     width: 85%;
     margin: 10px 0;
