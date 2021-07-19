@@ -4,7 +4,7 @@ import {BrowserView} from "react-device-detect";
 import React from "react";
 import {v4 as uuidv4} from "uuid";
 function TitleSharing({id}){
-    const socialMedia = new Array(3);
+    const socialMedia = [1,2,3];
     return(
         <BrowserView>
             <div className='sharing-container'>

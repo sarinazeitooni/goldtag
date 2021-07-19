@@ -6,7 +6,7 @@ import CommentsContainer from "../../comments/CommentsContainer";
 import React from "react";
 function SideAddress({id , comments}){
     return(
-        <div>
+        <React.Fragment>
             <br/>
             <h3> <FontAwesomeIcon icon={faSearchLocation}/>{id.Address}</h3>
             <Divider className=''/>
@@ -20,7 +20,7 @@ function SideAddress({id , comments}){
             </MobileView>
             <h3><FontAwesomeIcon icon={faTag}/>{id.tags}</h3>
             <Divider className=''/>
-        </div>
+        </React.Fragment>
     )
 };
 export default SideAddress;
