@@ -1,13 +1,13 @@
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faSchool} from "@fortawesome/free-solid-svg-icons";
-import {MobileView} from "react-device-detect";
 import React from "react";
-
+import useViewPort from "../../../../customIsMobileHook/useViewPort";
 function SharingContainer({titleSectionData}){
+    const isMobile = useViewPort();
     const icons = [1,2,3]
     return(
-        <MobileView>
-            <div className='sharing-container'>
+        <React.Fragment>
+            {isMobile ? <div className='sharing-container'>
                 <div>{titleSectionData.share}</div>
                 <div>
                     {icons.map((item)=>{
@@ -16,8 +16,8 @@ function SharingContainer({titleSectionData}){
                         )
                     })}
                 </div>
-            </div>
-        </MobileView>
+            </div> : ''}
+        </React.Fragment>
     )
-};
+}
 export default SharingContainer;

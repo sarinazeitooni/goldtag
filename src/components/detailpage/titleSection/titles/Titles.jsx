@@ -1,13 +1,14 @@
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faStar} from "@fortawesome/free-solid-svg-icons";
 import titleSectionData from "../Data/titleSectionData";
-import {BrowserView} from "react-device-detect";
 import React from "react";
+import useViewPort from "../../../../customIsMobileHook/useViewPort";
 
 function Titles({id, titleSection}) {
+    const isMobile = useViewPort();
     const stars = [1, 2, 3, 4, 5];
     return (
-        <div>
+        <React.Fragment>
             <h1 className='title'>{id.title}</h1>
             <h4 className='subtitle'>{id.subtitle}</h4>
             <div className='star-container'>
@@ -19,13 +20,11 @@ function Titles({id, titleSection}) {
                     })}
                     {titleSectionData.comments}
                 </div>
-                <BrowserView>
-                    <div>
+                    {!isMobile ? <div>
                         <button className='submit-btn'>{titleSection.shipping}</button>
-                    </div>
-                </BrowserView>
+                    </div> : ''}
             </div>
-        </div>
+        </React.Fragment>
     )
 };
 export default Titles;

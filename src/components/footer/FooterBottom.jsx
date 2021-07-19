@@ -1,8 +1,9 @@
 import React from 'react';
 import Divider from "../divider/Divider";
-import {BrowserView} from "react-device-detect";
 import footerTexts from "./Data/footerData";
+import useViewPort from "../../customIsMobileHook/useViewPort";
 function FooterBottom(){
+    const isMobile = useViewPort();
     return(
         <div className='footer-bottom-container'>
             <Divider className='footer-bottom-divider'/>
@@ -11,19 +12,17 @@ function FooterBottom(){
                     <span>{footerTexts.copyRight}</span>
                     <div className='footer-bottom-text'>{footerTexts.rightText}</div>
                 </div>
-                <BrowserView>
-                    <div className='left-footer'>
+                    {!isMobile ? <div className='left-footer'>
                         {
                             footerTexts.leftFooter.map((item)=>{
-                            return(
-                                <div key={item}>
-                                    {item}
-                                </div>
-                            )
+                                return(
+                                    <div key={item}>
+                                        {item}
+                                    </div>
+                                )
                             })
                         }
-                    </div>
-                </BrowserView>
+                    </div> : ' '}
             </div>
         </div>
     )

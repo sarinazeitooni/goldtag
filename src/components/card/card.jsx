@@ -1,14 +1,15 @@
 import React from 'react';
 import './style/card.scss';
 import './style/price.scss';
-import { BrowserView, MobileView} from "react-device-detect";
+import useViewPort from "../../customIsMobileHook/useViewPort";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faShoppingBag, faTruckMoving} from "@fortawesome/free-solid-svg-icons";
 import soldout from '../assets/img/soldout.png';
 import {Link} from 'react-router-dom';
 import Divider from "../divider/Divider";
 import NumberFormat from 'react-number-format';
-function Card({size,id,cover,title,subtitle,price,beenPurchased,newprice ,currency,purchased,className, available}){
+function Card({size,id,cover,title,subtitle,price,beenPurchased,newprice ,currency,className, available}){
+    const isMobile = useViewPort();
     return(
          <div className={className}>
              {
@@ -21,13 +22,13 @@ function Card({size,id,cover,title,subtitle,price,beenPurchased,newprice ,curren
                 <img alt="cover" className='card-image' src={cover}/>
                 <div className="purchased"> <FontAwesomeIcon icon={faShoppingBag}/> {beenPurchased}</div>
                 <div className="card-title"> {title}
-                <MobileView> <FontAwesomeIcon className='car-icon' icon={faTruckMoving}/></MobileView>
+                {isMobile ? <FontAwesomeIcon className='car-icon' icon={faTruckMoving}/> :''}
                 </div>
                 <div className="card-subtitle"> {subtitle}</div>
                 <Divider className={'line'}/>
                 <div className='price-container'>
                     <div className="car-icon-container">
-                        <BrowserView><FontAwesomeIcon icon={faTruckMoving}/></BrowserView>
+                        {!isMobile ? <FontAwesomeIcon icon={faTruckMoving}/> :''}
                     </div>
                     <div className='prices'>
                         <div className="old-price">{price}</div>

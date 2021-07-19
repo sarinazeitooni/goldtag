@@ -6,8 +6,4 @@ describe("ReponsiveHeader component" , ()=>{
         const container = shallow(<ReponsiveHeader/>)
         expect(container).toMatchSnapshot();
     });
-    it("it should render header-top-container-sticky",()=>{
-        const container = shallow(<ReponsiveHeader/>);
-        expect(container.find('div.header-top-container-sticky')).toHaveLength(1);
-    });
 });

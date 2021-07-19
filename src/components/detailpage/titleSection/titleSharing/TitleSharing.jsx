@@ -1,13 +1,14 @@
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faSchool} from "@fortawesome/free-solid-svg-icons";
-import {BrowserView} from "react-device-detect";
 import React from "react";
 import {v4 as uuidv4} from "uuid";
+import useViewPort from "../../../../customIsMobileHook/useViewPort";
 function TitleSharing({id}){
+    const isMobile = useViewPort();
     const socialMedia = [1,2,3];
     return(
-        <BrowserView>
-            <div className='sharing-container'>
+        <React.Fragment>
+            {isMobile ? <div className='sharing-container'>
                 <div>{id.share}</div>
                 <div>
                     {
@@ -18,8 +19,8 @@ function TitleSharing({id}){
                         })
                     }
                 </div>
-            </div>
-        </BrowserView>
+            </div> : ''}
+        </React.Fragment>
     )
 };
 export default TitleSharing;

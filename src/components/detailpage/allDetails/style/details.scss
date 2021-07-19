@@ -8,11 +8,6 @@
     display: unset;
     width: 100%;
     margin: 10px auto;
-    .side-section-container {
-      ul, hr {
-        width: 95%;
-      }
-    }
     .product-charity {
       margin: 5px 10px
     }
@@ -51,7 +46,7 @@
     }
     .side-section-container {
       ul {
-        width: 90% !important;
+        //width: 90% !important;
         margin-right: 15px;
       }
     }

@@ -1,10 +1,12 @@
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faMap, faPhone, faSearchLocation, faTag} from "@fortawesome/free-solid-svg-icons";
 import Divider from "../../../divider/Divider";
-import {MobileView} from "react-device-detect";
 import CommentsContainer from "../../comments/CommentsContainer";
 import React from "react";
+import useViewPort from "../../../../customIsMobileHook/useViewPort";
 function SideAddress({id , comments}){
+    const isMobile = useViewPort();
+
     return(
         <React.Fragment>
             <br/>
@@ -15,9 +17,7 @@ function SideAddress({id , comments}){
                  alt="map"/>
             <div className="address-phone"><FontAwesomeIcon icon={faPhone}/>{id.number}</div>
             <div className="address-phone"><FontAwesomeIcon icon={faMap}/>{id.fullAddress}</div>
-            <MobileView>
-                <CommentsContainer id={comments}/>
-            </MobileView>
+                {isMobile ? <CommentsContainer id={comments}/> : '' }
             <h3><FontAwesomeIcon icon={faTag}/>{id.tags}</h3>
             <Divider className=''/>
         </React.Fragment>
