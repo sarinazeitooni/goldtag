@@ -5,7 +5,7 @@ import {BrowserView} from "react-device-detect";
 import React from "react";
 
 function Titles({id , titleSection}) {
-    const stars = new Array(5);
+    const stars = [1,2,3,4,5];
     return(
         <div>
             <h1 className='title'>{id.title}</h1>
