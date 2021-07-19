@@ -6,17 +6,18 @@ const Comments = () => ({
 const Rating = () => ({
     type: actionTypes.Rating
 });
-const Like = () => ({
-    type: actionTypes.Like
+const Like = (e) => ({
+    type: actionTypes.Like,
+    id : e
 });
-const Dislike = () => ({
-    type: actionTypes.Dislike
+const Dislike = (e) => ({
+    type: actionTypes.Dislike,
+    id : e
 });
-
-
-export default {
+const exportObject = {
     Comments,
     Rating,
     Like,
     Dislike
-};
+}
+export default exportObject;

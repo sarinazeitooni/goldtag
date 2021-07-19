@@ -10,7 +10,7 @@ function Comments({items}){
                     {data.map((item)=>{
                         return(
                             <div key={item.id}>
-                                <Comment like={item.like} dislike={item.dislike} name={item.name} date={item.date} customercomment ={item.customercomment} goldcomment={item.goldcomment} />
+                                <Comment id={item.id} like={item.like} dislike={item.dislike} name={item.name} date={item.date} customercomment ={item.customercomment} goldcomment={item.goldcomment} />
                             </div>
                         )
                     })}

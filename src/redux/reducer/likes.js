@@ -7,12 +7,14 @@ export default function likes(state=initialState, action) {
         case 'Like':
             return {
                 ...state,
-                like: state.like+1
+                like: state.like+1,
+                id : action.payload
             };
         case 'Dislike':
             return{
                 ...state,
-                dislike: state.dislike+1
+                dislike: state.dislike+1,
+                id : action.payload
             }
         default:
             return state;

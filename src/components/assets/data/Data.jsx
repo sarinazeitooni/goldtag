@@ -1,38 +1,39 @@
 let data = [
     {
-        isAvailable : true,
-        className : 'gridfirst',
-        id:3,
-        comments : [{
-            like : 4,
-            dislike : 1,
-                name: 'مه رضایی',
-                date : '1400/02/31',
-                customercomment : 'کسانی ک استفاده کردند از جنسش بگن لطفا نمیریزه؟ حالت چسبناک داره یانه؟',
-                goldcomment : 'سلام منتظر نظر کاربران عزیز گلدتگ هستیم'
-            }],
-        cover : "https://cdn.goldtag.net/web/uploads/pictures/736x536/999726840_1621418858__750-544.jpg",
-        purchased : "44 عدد",
-        swiper : [
+        isAvailable: true,
+        className: 'gridfirst',
+        id: 3,
+        comments: [{
+            id: 0,
+            like: 4,
+            dislike: 1,
+            name: 'مه رضایی',
+            date: '1400/02/31',
+            customercomment: 'کسانی ک استفاده کردند از جنسش بگن لطفا نمیریزه؟ حالت چسبناک داره یانه؟',
+            goldcomment: 'سلام منتظر نظر کاربران عزیز گلدتگ هستیم'
+        }],
+        cover: "https://cdn.goldtag.net/web/uploads/pictures/736x536/999726840_1621418858__750-544.jpg",
+        purchased: "44 عدد",
+        swiper: [
             'https://cdn.goldtag.net/web/uploads/pictures/736x536/1723945140_1621418866__750-5442.jpg',
             'https://cdn.goldtag.net/web/uploads/pictures/736x536/250610996_1621418862__750-5441.jpg',
             'https://cdn.goldtag.net/web/uploads/pictures/736x536/1443349497_1621418854__750-5443.jpg',
             'https://cdn.goldtag.net/web/uploads/pictures/736x536/1723945140_1621418866__750-5442.jpg'
         ],
-        title : "پالت سایه چشم HUDABEAUTY",
-        subtitle : "18 رنگ، ماندگاری بالا",
-        price : 90000,
-        newprice : 64800,
-        address : {
-            home : 'خانه'  ,
-            category : 'لوازم شخصی',
-            secondCategory : 'لوازم آرایشی و بهداشتی',
-            product : 'پالت سایه چشم HUDABEAUTY'
+        title: "پالت سایه چشم HUDABEAUTY",
+        subtitle: "18 رنگ، ماندگاری بالا",
+        price: 90000,
+        newprice: 64800,
+        address: {
+            home: 'خانه',
+            category: 'لوازم شخصی',
+            secondCategory: 'لوازم آرایشی و بهداشتی',
+            product: 'پالت سایه چشم HUDABEAUTY'
 
         },
-        daynum : "16 روز",
-        description : "پالت سایه چشم HUDA BEAUTY مدل New N.U.D.E دارای 18 رنگ رم و طبیعیه که این 18 رنگ شامل: 7 رنگ شاین و 10 رنگ مات و 1 رنگ کانسیلره، شما میتوانید با این پالت چشم انواع آرایش چشم از آرایش های ملایم و روزانه تا آرایش کامل شب رو داشته باشید. این پالت دارای ترکیب رنگی زیبا و منحصر به فردی بوده و از ماندگاری بالایی برخورداره.",
-        property : [
+        daynum: "16 روز",
+        description: "پالت سایه چشم HUDA BEAUTY مدل New N.U.D.E دارای 18 رنگ رم و طبیعیه که این 18 رنگ شامل: 7 رنگ شاین و 10 رنگ مات و 1 رنگ کانسیلره، شما میتوانید با این پالت چشم انواع آرایش چشم از آرایش های ملایم و روزانه تا آرایش کامل شب رو داشته باشید. این پالت دارای ترکیب رنگی زیبا و منحصر به فردی بوده و از ماندگاری بالایی برخورداره.",
+        property: [
             'پالت سایه',
             'طرح: HUDA BEAUTY',
             '18 رنگ',
@@ -46,72 +47,73 @@ let data = [
             'به دلیل رعایت مسائل بهداشتی امکان تعویض یا استرداد کالا وجود ندارد',
             'عکس های اسلایدر، عکس واقعی از محصول هستند که توسط تیم گلدتگ گرفته شده اند و عکس اینترنتی نیستند'
         ],
-        tags : [
+        tags: [
             'پالت سایه',
             'سایه چشم',
-            'پالت سایه چشم HUDABEAUTY'    
+            'پالت سایه چشم HUDABEAUTY'
         ],
-        clothes : false,
-        beenPurchased : '20 فروخته شده'
-  
+        clothes: false,
+        beenPurchased: '20 فروخته شده'
+
     },
     {
         id: 2,
         isAvailable: false,
-        comments : [{
-            id : 1,
-            like : 6,
-            dislike : 5,
+        comments: [{
+            id: 1,
+            like: 6,
+            dislike: 5,
             name: 'امیرحسین محبی',
-            date : '1400/02/02',
-            customercomment : 'از دستفروش کنار خیابون تیشرت میگیریم حداقل یه نایلون داره دوتا تیشرت گرفتم بدون هیچ نایلونی گذاشتین تو کارتون. همه چیو فذای قیمت نکنید !',
-            goldcomment : 'دوست عزیز خیلی متاسفم که نتونستیم نظرتونو جلب کنیم'
+            date: '1400/02/02',
+            customercomment: 'از دستفروش کنار خیابون تیشرت میگیریم حداقل یه نایلون داره دوتا تیشرت گرفتم بدون هیچ نایلونی گذاشتین تو کارتون. همه چیو فذای قیمت نکنید !',
+            goldcomment: 'دوست عزیز خیلی متاسفم که نتونستیم نظرتونو جلب کنیم'
         },
-        { id : 2,
-            like : 1,
-            dislike : 0,
-            name : 'علی محمدپور',
-            date : '1400/02/29',
-            customercomment : 'با درود؛ انتقاد بنده نیز همین ااست چرا لباس های سفارش شده در پلاستیک یا پوشش مناسبی قرار نمی گیرد. تمامی سفارشات بنده درون کارتون همراه با سایر لوازم و سفارشات قرار گرفته گویا هیج گونه کنترل کیفی و نظارتی با توجه به شرایط موجود وجود ندارد.',
-            goldcomment : 'سلام علی جان در تلاشیم تا این مشکلات حل بشه'
-        },
-        {
-            id : 3,
-            like : 1,
-            dislike : 0,
-            name : 'ابراهیم کوشا',
-            date : '1400/02/02',
-            customercomment : 'روی تی شرت رد جوهر خودکار هست آرم نایک هم صورتیه نه نارنجی لطفا با مشخصات صحیح آگهی بفرمایید',
-            goldcomment : 'خیلی متاسفم امیدوارم که در پیشنهاد های بعدی بتونیم جبران کنیم'
-        }
+            {
+                id: 2,
+                like: 1,
+                dislike: 0,
+                name: 'علی محمدپور',
+                date: '1400/02/29',
+                customercomment: 'با درود؛ انتقاد بنده نیز همین ااست چرا لباس های سفارش شده در پلاستیک یا پوشش مناسبی قرار نمی گیرد. تمامی سفارشات بنده درون کارتون همراه با سایر لوازم و سفارشات قرار گرفته گویا هیج گونه کنترل کیفی و نظارتی با توجه به شرایط موجود وجود ندارد.',
+                goldcomment: 'سلام علی جان در تلاشیم تا این مشکلات حل بشه'
+            },
+            {
+                id: 3,
+                like: 1,
+                dislike: 0,
+                name: 'ابراهیم کوشا',
+                date: '1400/02/02',
+                customercomment: 'روی تی شرت رد جوهر خودکار هست آرم نایک هم صورتیه نه نارنجی لطفا با مشخصات صحیح آگهی بفرمایید',
+                goldcomment: 'خیلی متاسفم امیدوارم که در پیشنهاد های بعدی بتونیم جبران کنیم'
+            }
         ],
-        cover : "https://cdn.goldtag.net/web/uploads/pictures/270x170/307803407_1621341999__750-5445.jpg",
-        purchased : "231 عدد",
-        title : "تیشرت مردانه طرح Nike",
-        subtitle : "تک رنگ، 2 سایز",
-        price : 50000,
-        newprice : 35500,
-        tags : [
+        cover: "https://cdn.goldtag.net/web/uploads/pictures/270x170/307803407_1621341999__750-5445.jpg",
+        purchased: "231 عدد",
+        title: "تیشرت مردانه طرح Nike",
+        subtitle: "تک رنگ، 2 سایز",
+        price: 50000,
+        newprice: 35500,
+        tags: [
             'تیشرت مردانه',
             'تیشرت مردانه طرح Nike',
-            'تیشرت مردانه آستین کوتاه'  
+            'تیشرت مردانه آستین کوتاه'
         ],
-        swiper : [
+        swiper: [
             'https://cdn.goldtag.net/web/uploads/pictures/736x536/83292830_1621342031__750-5441.jpg',
             'https://cdn.goldtag.net/web/uploads/pictures/736x536/457949053_1618399929__750-5441.jpg',
             'https://cdn.goldtag.net/web/uploads/pictures/736x536/307803407_1621341999__750-5445.jpg',
             'https://cdn.goldtag.net/web/uploads/pictures/736x536/1285675403_1621342046__750-5444.jpg'
         ],
-        address : {
-            home : 'خانه'  ,
-            category : 'پوشاک',
-            secondCategory : 'پوشاک مردانه',
-            product : 'تیشرت مردانه طرح Nike'
+        address: {
+            home: 'خانه',
+            category: 'پوشاک',
+            secondCategory: 'پوشاک مردانه',
+            product: 'تیشرت مردانه طرح Nike'
 
         },
-        daynum : "15 روز",
-        description : "تیشرت های مردانه طرح Nike در رنگ سفید ارائه شده و جنسش اسپان هستش، آستین کوتاه و یقه گرده. لوگوی چاپی روی تیشرت داره و دوختش تمیزه. 2 سایز داره که میتونید قبل از خرید به جدول سایزبندی مراجعه کنید تا انتخاب بهتری داشته باشید.",
-        property : [
+        daynum: "15 روز",
+        description: "تیشرت های مردانه طرح Nike در رنگ سفید ارائه شده و جنسش اسپان هستش، آستین کوتاه و یقه گرده. لوگوی چاپی روی تیشرت داره و دوختش تمیزه. 2 سایز داره که میتونید قبل از خرید به جدول سایزبندی مراجعه کنید تا انتخاب بهتری داشته باشید.",
+        property: [
             'تیشزت مردانه',
             'جنس: اسپان',
             'طرح: Nike',
@@ -125,62 +127,62 @@ let data = [
             'محصول: ایران',
             'عکس های اسلایدر، عکس واقعی از محصول هستند که توسط تیم گلدتگ گرفته شده اند و عکس اینترنتی نیستند'
         ],
-        clothes : true,
-        beenPurchased : '20 فروخته شده'
+        clothes: true,
+        beenPurchased: '20 فروخته شده'
     },
     {
-        id:1,
+        id: 1,
         isAvailable: false,
-        comments : [{
-            id : 1,
-            like : 1,
-            dislike : 0,
+        comments: [{
+            id: 4,
+            like: 1,
+            dislike: 0,
             name: 'ام احمدی',
-            date : '1400/02/30',
-            customercomment : 'کسانیکه بدستشان رسیده لطفا اظهار نظر کنید ممنون',
-            goldcomment : 'سلام متظر نظر کاربران عزیز گلدتگ هستیم'
+            date: '1400/02/30',
+            customercomment: 'کسانیکه بدستشان رسیده لطفا اظهار نظر کنید ممنون',
+            goldcomment: 'سلام متظر نظر کاربران عزیز گلدتگ هستیم'
         },
-        {
-            id : 2,
-            like : 1,
-            dislike : 0,
-            name : 'Masoud Ghahremani',
-            date : '1400/02/29',
-            customercomment : 'گلدان ابکاری شده؟آب میشه داخلش ریخت؟',
-            goldcomment : 'بله دوست عزیز'
-        },
-        {
-            id : 3,
-            like : 1,
-            dislike : 0,
-            name : 'سارا خلجی',
-            date : '1400/03/03',
-            customercomment : 'هر دو طرف گلدان گل داره؟',
-            goldcomment : 'بله سارا جان'
-        }
+            {
+                id: 5,
+                like: 1,
+                dislike: 0,
+                name: 'Masoud Ghahremani',
+                date: '1400/02/29',
+                customercomment: 'گلدان ابکاری شده؟آب میشه داخلش ریخت؟',
+                goldcomment: 'بله دوست عزیز'
+            },
+            {
+                id: 6,
+                like: 1,
+                dislike: 0,
+                name: 'سارا خلجی',
+                date: '1400/03/03',
+                customercomment: 'هر دو طرف گلدان گل داره؟',
+                goldcomment: 'بله سارا جان'
+            }
         ],
-        title:"گلدان سرامیکی M.R.Z",
+        title: "گلدان سرامیکی M.R.Z",
         subtitle: "دارای طرح گل رز",
         purchased: " 155 عدد",
-        cover : "https://cdn.goldtag.net/web/uploads/pictures/270x170/704167149_1621340742__750-5444.jpg",
-        price : 60000,
+        cover: "https://cdn.goldtag.net/web/uploads/pictures/270x170/704167149_1621340742__750-5444.jpg",
+        price: 60000,
         newprice: 35400,
-        swiper : [
+        swiper: [
             'https://cdn.goldtag.net/web/uploads/pictures/736x536/823778970_1621340749__750-5441.jpg',
             'https://cdn.goldtag.net/web/uploads/pictures/736x536/157560287_1621340746__750-544.jpg',
             'https://cdn.goldtag.net/web/uploads/pictures/736x536/704167149_1621340742__750-5444.jpg',
             'https://cdn.goldtag.net/web/uploads/pictures/736x536/606712390_1621340757__750-5443.jpg'
         ],
-        tags : [
+        tags: [
             'گلدان',
             'گلدان سرامیکی',
             'گلدان سرامیکی M.R.Z'
         ],
-        address : {
-            home : 'خانه'  ,
-            category : 'لوازم خانگی',
-            secondCategory : 'دکوری',
-            product : 'گلدان سرامیکی M.R.Z'
+        address: {
+            home: 'خانه',
+            category: 'لوازم خانگی',
+            secondCategory: 'دکوری',
+            product: 'گلدان سرامیکی M.R.Z'
 
         },
         daynum: "15 روز",
@@ -194,73 +196,73 @@ let data = [
             'ارتفاع گلدان: 24cm',
             'قطر دهانه گلدان: 3cm',
             'سطح مقطع: 5.5cm',
-            'دارای پکیج', 
+            'دارای پکیج',
             'ابعادپکیج: 9.5x9.5x24cm',
             'محصول: چین',
             ' ارسال به شهرستان بدون امکان تعویض در صورت شکستگی',
             'عکس های اسلایدر، عکس واقعی از محصول هستند که توسط تیم گلدتگ گرفته شده اند و عکس اینترنتی نیستند'
         ],
-        clothes : false,
-        beenPurchased : '20 فروخته شده'
+        clothes: false,
+        beenPurchased: '20 فروخته شده'
     },
     {
         id: 4,
         isAvailable: false,
-        comments : [{
-            id : 1,
-            like : 1,
-            dislike : 0,
+        comments: [{
+            id: 7,
+            like: 1,
+            dislike: 0,
             name: 'امیرحسین محبی',
-            date : '1400/02/02',
-            customercomment : 'از دستفروش کنار خیابون تیشرت میگیریم حداقل یه نایلون داره دوتا تیشرت گرفتم بدون هیچ نایلونی گذاشتین تو کارتون. همه چیو فذای قیمت نکنید !',
-            goldcomment : 'دوست عزیز خیلی متاسفم که نتونستیم نظرتونو جلب کنیم'
+            date: '1400/02/02',
+            customercomment: 'از دستفروش کنار خیابون تیشرت میگیریم حداقل یه نایلون داره دوتا تیشرت گرفتم بدون هیچ نایلونی گذاشتین تو کارتون. همه چیو فذای قیمت نکنید !',
+            goldcomment: 'دوست عزیز خیلی متاسفم که نتونستیم نظرتونو جلب کنیم'
         },
-        {
-            id : 2,
-            like : 1,
-            dislike : 0,
-            name : 'علی محمدپور',
-            date : '1400/02/29',
-            customercomment : 'با درود؛ انتقاد بنده نیز همین ااست چرا لباس های سفارش شده در پلاستیک یا پوشش مناسبی قرار نمی گیرد. تمامی سفارشات بنده درون کارتون همراه با سایر لوازم و سفارشات قرار گرفته گویا هیج گونه کنترل کیفی و نظارتی با توجه به شرایط موجود وجود ندارد.',
-            goldcomment : 'سلام علی جان در تلاشیم تا این مشکلات حل بشه'
-        },
-        {
-            id : 3,
-            like : 1,
-            dislike : 0,
-            name : 'ابراهیم کوشا',
-            date : '1400/02/02',
-            customercomment : 'روی تی شرت رد جوهر خودکار هست آرم نایک هم صورتیه نه نارنجی لطفا با مشخصات صحیح آگهی بفرمایید',
-            goldcomment : 'خیلی متاسفم امیدوارم که در پیشنهاد های بعدی بتونیم جبران کنیم'
-        }
+            {
+                id: 8,
+                like: 1,
+                dislike: 0,
+                name: 'علی محمدپور',
+                date: '1400/02/29',
+                customercomment: 'با درود؛ انتقاد بنده نیز همین ااست چرا لباس های سفارش شده در پلاستیک یا پوشش مناسبی قرار نمی گیرد. تمامی سفارشات بنده درون کارتون همراه با سایر لوازم و سفارشات قرار گرفته گویا هیج گونه کنترل کیفی و نظارتی با توجه به شرایط موجود وجود ندارد.',
+                goldcomment: 'سلام علی جان در تلاشیم تا این مشکلات حل بشه'
+            },
+            {
+                id: 9,
+                like: 1,
+                dislike: 0,
+                name: 'ابراهیم کوشا',
+                date: '1400/02/02',
+                customercomment: 'روی تی شرت رد جوهر خودکار هست آرم نایک هم صورتیه نه نارنجی لطفا با مشخصات صحیح آگهی بفرمایید',
+                goldcomment: 'خیلی متاسفم امیدوارم که در پیشنهاد های بعدی بتونیم جبران کنیم'
+            }
         ],
-        cover : "https://cdn.goldtag.net/web/uploads/pictures/270x170/307803407_1621341999__750-5445.jpg",
-        purchased : "231 عدد",
-        title : "تیشرت مردانه طرح Nike",
-        subtitle : "تک رنگ، 2 سایز",
-        price : 50000,
-        newprice : 35500,
-        tags : [
+        cover: "https://cdn.goldtag.net/web/uploads/pictures/270x170/307803407_1621341999__750-5445.jpg",
+        purchased: "231 عدد",
+        title: "تیشرت مردانه طرح Nike",
+        subtitle: "تک رنگ، 2 سایز",
+        price: 50000,
+        newprice: 35500,
+        tags: [
             'تیشرت مردانه',
             'تیشرت مردانه طرح Nike',
-            'تیشرت مردانه آستین کوتاه'  
+            'تیشرت مردانه آستین کوتاه'
         ],
-        swiper : [
+        swiper: [
             'https://cdn.goldtag.net/web/uploads/pictures/736x536/83292830_1621342031__750-5441.jpg',
             'https://cdn.goldtag.net/web/uploads/pictures/736x536/457949053_1618399929__750-5441.jpg',
             'https://cdn.goldtag.net/web/uploads/pictures/736x536/307803407_1621341999__750-5445.jpg',
             'https://cdn.goldtag.net/web/uploads/pictures/736x536/1285675403_1621342046__750-5444.jpg'
         ],
-        address : {
-            home : 'خانه'  ,
-            category : 'پوشاک',
-            secondCategory : 'پوشاک مردانه',
-            product : 'تیشرت مردانه طرح Nike'
+        address: {
+            home: 'خانه',
+            category: 'پوشاک',
+            secondCategory: 'پوشاک مردانه',
+            product: 'تیشرت مردانه طرح Nike'
 
         },
-        daynum : "15 روز",
-        description : "تیشرت های مردانه طرح Nike در رنگ سفید ارائه شده و جنسش اسپان هستش، آستین کوتاه و یقه گرده. لوگوی چاپی روی تیشرت داره و دوختش تمیزه. 2 سایز داره که میتونید قبل از خرید به جدول سایزبندی مراجعه کنید تا انتخاب بهتری داشته باشید.",
-        property : [
+        daynum: "15 روز",
+        description: "تیشرت های مردانه طرح Nike در رنگ سفید ارائه شده و جنسش اسپان هستش، آستین کوتاه و یقه گرده. لوگوی چاپی روی تیشرت داره و دوختش تمیزه. 2 سایز داره که میتونید قبل از خرید به جدول سایزبندی مراجعه کنید تا انتخاب بهتری داشته باشید.",
+        property: [
             'تیشزت مردانه',
             'جنس: اسپان',
             'طرح: Nike',
@@ -274,67 +276,67 @@ let data = [
             'محصول: ایران',
             'عکس های اسلایدر، عکس واقعی از محصول هستند که توسط تیم گلدتگ گرفته شده اند و عکس اینترنتی نیستند'
         ],
-        clothes : true,
-        beenPurchased : '20 فروخته شده'
+        clothes: true,
+        beenPurchased: '20 فروخته شده'
     },
     {
         id: 2,
         isAvailable: false,
-        comments : [{
-            id : 1,
-            like : 1,
-            dislike : 0,
+        comments: [{
+            id: 10,
+            like: 1,
+            dislike: 0,
             name: 'امیرحسین محبی',
-            date : '1400/02/02',
-            customercomment : 'از دستفروش کنار خیابون تیشرت میگیریم حداقل یه نایلون داره دوتا تیشرت گرفتم بدون هیچ نایلونی گذاشتین تو کارتون. همه چیو فذای قیمت نکنید !',
-            goldcomment : 'دوست عزیز خیلی متاسفم که نتونستیم نظرتونو جلب کنیم'
+            date: '1400/02/02',
+            customercomment: 'از دستفروش کنار خیابون تیشرت میگیریم حداقل یه نایلون داره دوتا تیشرت گرفتم بدون هیچ نایلونی گذاشتین تو کارتون. همه چیو فذای قیمت نکنید !',
+            goldcomment: 'دوست عزیز خیلی متاسفم که نتونستیم نظرتونو جلب کنیم'
         },
-        {
-            id : 2,
-            like : 1,
-            dislike : 0,
-            name : 'علی محمدپور',
-            date : '1400/02/29',
-            customercomment : 'با درود؛ انتقاد بنده نیز همین ااست چرا لباس های سفارش شده در پلاستیک یا پوشش مناسبی قرار نمی گیرد. تمامی سفارشات بنده درون کارتون همراه با سایر لوازم و سفارشات قرار گرفته گویا هیج گونه کنترل کیفی و نظارتی با توجه به شرایط موجود وجود ندارد.',
-            goldcomment : 'سلام علی جان در تلاشیم تا این مشکلات حل بشه'
-        },
-        {
-            id : 3,
-            like : 1,
-            dislike : 0,
-            name : 'ابراهیم کوشا',
-            date : '1400/02/02',
-            customercomment : 'روی تی شرت رد جوهر خودکار هست آرم نایک هم صورتیه نه نارنجی لطفا با مشخصات صحیح آگهی بفرمایید',
-            goldcomment : 'خیلی متاسفم امیدوارم که در پیشنهاد های بعدی بتونیم جبران کنیم'
-        }
+            {
+                id: 11,
+                like: 1,
+                dislike: 0,
+                name: 'علی محمدپور',
+                date: '1400/02/29',
+                customercomment: 'با درود؛ انتقاد بنده نیز همین ااست چرا لباس های سفارش شده در پلاستیک یا پوشش مناسبی قرار نمی گیرد. تمامی سفارشات بنده درون کارتون همراه با سایر لوازم و سفارشات قرار گرفته گویا هیج گونه کنترل کیفی و نظارتی با توجه به شرایط موجود وجود ندارد.',
+                goldcomment: 'سلام علی جان در تلاشیم تا این مشکلات حل بشه'
+            },
+            {
+                id: 12,
+                like: 1,
+                dislike: 0,
+                name: 'ابراهیم کوشا',
+                date: '1400/02/02',
+                customercomment: 'روی تی شرت رد جوهر خودکار هست آرم نایک هم صورتیه نه نارنجی لطفا با مشخصات صحیح آگهی بفرمایید',
+                goldcomment: 'خیلی متاسفم امیدوارم که در پیشنهاد های بعدی بتونیم جبران کنیم'
+            }
         ],
-        cover : "https://cdn.goldtag.net/web/uploads/pictures/270x170/307803407_1621341999__750-5445.jpg",
-        purchased : "231 عدد",
-        title : "تیشرت مردانه طرح Nike",
-        subtitle : "تک رنگ، 2 سایز",
-        price : 50000,
-        newprice : 35500,
-        tags : [
+        cover: "https://cdn.goldtag.net/web/uploads/pictures/270x170/307803407_1621341999__750-5445.jpg",
+        purchased: "231 عدد",
+        title: "تیشرت مردانه طرح Nike",
+        subtitle: "تک رنگ، 2 سایز",
+        price: 50000,
+        newprice: 35500,
+        tags: [
             'تیشرت مردانه',
             'تیشرت مردانه طرح Nike',
-            'تیشرت مردانه آستین کوتاه'  
+            'تیشرت مردانه آستین کوتاه'
         ],
-        swiper : [
+        swiper: [
             'https://cdn.goldtag.net/web/uploads/pictures/736x536/83292830_1621342031__750-5441.jpg',
             'https://cdn.goldtag.net/web/uploads/pictures/736x536/457949053_1618399929__750-5441.jpg',
             'https://cdn.goldtag.net/web/uploads/pictures/736x536/307803407_1621341999__750-5445.jpg',
             'https://cdn.goldtag.net/web/uploads/pictures/736x536/1285675403_1621342046__750-5444.jpg'
         ],
-        address : {
-            home : 'خانه'  ,
-            category : 'پوشاک',
-            secondCategory : 'پوشاک مردانه',
-            product : 'تیشرت مردانه طرح Nike'
+        address: {
+            home: 'خانه',
+            category: 'پوشاک',
+            secondCategory: 'پوشاک مردانه',
+            product: 'تیشرت مردانه طرح Nike'
 
         },
-        daynum : "15 روز",
-        description : "تیشرت های مردانه طرح Nike در رنگ سفید ارائه شده و جنسش اسپان هستش، آستین کوتاه و یقه گرده. لوگوی چاپی روی تیشرت داره و دوختش تمیزه. 2 سایز داره که میتونید قبل از خرید به جدول سایزبندی مراجعه کنید تا انتخاب بهتری داشته باشید.",
-        property : [
+        daynum: "15 روز",
+        description: "تیشرت های مردانه طرح Nike در رنگ سفید ارائه شده و جنسش اسپان هستش، آستین کوتاه و یقه گرده. لوگوی چاپی روی تیشرت داره و دوختش تمیزه. 2 سایز داره که میتونید قبل از خرید به جدول سایزبندی مراجعه کنید تا انتخاب بهتری داشته باشید.",
+        property: [
             'تیشزت مردانه',
             'جنس: اسپان',
             'طرح: Nike',
@@ -348,63 +350,63 @@ let data = [
             'محصول: ایران',
             'عکس های اسلایدر، عکس واقعی از محصول هستند که توسط تیم گلدتگ گرفته شده اند و عکس اینترنتی نیستند'
         ],
-        clothes : true,
-        beenPurchased : '20 فروخته شده'
+        clothes: true,
+        beenPurchased: '20 فروخته شده'
     },
-    
+
     {
-        id:5,
+        id: 5,
         isAvailable: false,
-        comments : [{
-            id : 1,
-            like : 3,
-            dislike : 0,
+        comments: [{
+            id: 13,
+            like: 3,
+            dislike: 0,
             name: 'ام احمدی',
-            date : '1400/02/30',
-            customercomment : 'کسانیکه بدستشان رسیده لطفا اظهار نظر کنید ممنون',
-            goldcomment : 'سلام متظر نظر کاربران عزیز گلدتگ هستیم'
+            date: '1400/02/30',
+            customercomment: 'کسانیکه بدستشان رسیده لطفا اظهار نظر کنید ممنون',
+            goldcomment: 'سلام متظر نظر کاربران عزیز گلدتگ هستیم'
         },
-        {
-            id : 2,
-            like : 1,
-            dislike : 0,
-            name : 'Masoud Ghahremani',
-            date : '1400/02/29',
-            customercomment : 'گلدان ابکاری شده؟آب میشه داخلش ریخت؟',
-            goldcomment : 'بله دوست عزیز'
-        },
-        {
-            id : 3,
-            like : 2,
-            dislike : 0,
-            name : 'سارا خلجی',
-            date : '1400/03/03',
-            customercomment : 'هر دو طرف گلدان گل داره؟',
-            goldcomment : 'بله سارا جان'
-        }
+            {
+                id: 14,
+                like: 1,
+                dislike: 0,
+                name: 'Masoud Ghahremani',
+                date: '1400/02/29',
+                customercomment: 'گلدان ابکاری شده؟آب میشه داخلش ریخت؟',
+                goldcomment: 'بله دوست عزیز'
+            },
+            {
+                id: 15,
+                like: 2,
+                dislike: 0,
+                name: 'سارا خلجی',
+                date: '1400/03/03',
+                customercomment: 'هر دو طرف گلدان گل داره؟',
+                goldcomment: 'بله سارا جان'
+            }
         ],
-        title:"گلدان سرامیکی M.R.Z",
+        title: "گلدان سرامیکی M.R.Z",
         subtitle: "دارای طرح گل رز",
         purchased: " 155 عدد",
-        cover : "https://cdn.goldtag.net/web/uploads/pictures/270x170/704167149_1621340742__750-5444.jpg",
-        price : 60000,
+        cover: "https://cdn.goldtag.net/web/uploads/pictures/270x170/704167149_1621340742__750-5444.jpg",
+        price: 60000,
         newprice: 35400,
-        swiper : [
+        swiper: [
             'https://cdn.goldtag.net/web/uploads/pictures/736x536/823778970_1621340749__750-5441.jpg',
             'https://cdn.goldtag.net/web/uploads/pictures/736x536/157560287_1621340746__750-544.jpg',
             'https://cdn.goldtag.net/web/uploads/pictures/736x536/704167149_1621340742__750-5444.jpg',
             'https://cdn.goldtag.net/web/uploads/pictures/736x536/606712390_1621340757__750-5443.jpg'
         ],
-        tags : [
+        tags: [
             'گلدان',
             'گلدان سرامیکی',
             'گلدان سرامیکی M.R.Z'
         ],
-        address : {
-            home : 'خانه'  ,
-            category : 'پوشاک',
-            secondCategory : 'پوشاک مردانه',
-            product : 'تیشرت مردانه طرح Nike'
+        address: {
+            home: 'خانه',
+            category: 'پوشاک',
+            secondCategory: 'پوشاک مردانه',
+            product: 'تیشرت مردانه طرح Nike'
 
         },
         daynum: "15 روز",
@@ -418,73 +420,73 @@ let data = [
             'ارتفاع گلدان: 24cm',
             'قطر دهانه گلدان: 3cm',
             'سطح مقطع: 5.5cm',
-            'دارای پکیج', 
+            'دارای پکیج',
             'ابعادپکیج: 9.5x9.5x24cm',
             'محصول: چین',
             ' ارسال به شهرستان بدون امکان تعویض در صورت شکستگی',
             'عکس های اسلایدر، عکس واقعی از محصول هستند که توسط تیم گلدتگ گرفته شده اند و عکس اینترنتی نیستند'
         ],
-        clothes : false,
-        beenPurchased : '20 فروخته شده'
+        clothes: false,
+        beenPurchased: '20 فروخته شده'
     },
     {
         id: 6,
         isAvailable: false,
-        comments : [{
-            id : 1,
-            like : 1,
-            dislike : 0,
+        comments: [{
+            id: 16,
+            like: 1,
+            dislike: 0,
             name: 'امیرحسین محبی',
-            date : '1400/02/02',
-            customercomment : 'از دستفروش کنار خیابون تیشرت میگیریم حداقل یه نایلون داره دوتا تیشرت گرفتم بدون هیچ نایلونی گذاشتین تو کارتون. همه چیو فذای قیمت نکنید !',
-            goldcomment : 'دوست عزیز خیلی متاسفم که نتونستیم نظرتونو جلب کنیم'
+            date: '1400/02/02',
+            customercomment: 'از دستفروش کنار خیابون تیشرت میگیریم حداقل یه نایلون داره دوتا تیشرت گرفتم بدون هیچ نایلونی گذاشتین تو کارتون. همه چیو فذای قیمت نکنید !',
+            goldcomment: 'دوست عزیز خیلی متاسفم که نتونستیم نظرتونو جلب کنیم'
         },
-        {
-            id : 2,
-            like : 1,
-            dislike : 0,
-            name : 'علی محمدپور',
-            date : '1400/02/29',
-            customercomment : 'با درود؛ انتقاد بنده نیز همین ااست چرا لباس های سفارش شده در پلاستیک یا پوشش مناسبی قرار نمی گیرد. تمامی سفارشات بنده درون کارتون همراه با سایر لوازم و سفارشات قرار گرفته گویا هیج گونه کنترل کیفی و نظارتی با توجه به شرایط موجود وجود ندارد.',
-            goldcomment : 'سلام علی جان در تلاشیم تا این مشکلات حل بشه'
-        },
-        {
-            id : 3,
-            like : 1,
-            dislike : 1,
-            name : 'ابراهیم کوشا',
-            date : '1400/02/02',
-            customercomment : 'روی تی شرت رد جوهر خودکار هست آرم نایک هم صورتیه نه نارنجی لطفا با مشخصات صحیح آگهی بفرمایید',
-            goldcomment : 'خیلی متاسفم امیدوارم که در پیشنهاد های بعدی بتونیم جبران کنیم'
-        }
+            {
+                id: 17,
+                like: 1,
+                dislike: 0,
+                name: 'علی محمدپور',
+                date: '1400/02/29',
+                customercomment: 'با درود؛ انتقاد بنده نیز همین ااست چرا لباس های سفارش شده در پلاستیک یا پوشش مناسبی قرار نمی گیرد. تمامی سفارشات بنده درون کارتون همراه با سایر لوازم و سفارشات قرار گرفته گویا هیج گونه کنترل کیفی و نظارتی با توجه به شرایط موجود وجود ندارد.',
+                goldcomment: 'سلام علی جان در تلاشیم تا این مشکلات حل بشه'
+            },
+            {
+                id: 18,
+                like: 1,
+                dislike: 1,
+                name: 'ابراهیم کوشا',
+                date: '1400/02/02',
+                customercomment: 'روی تی شرت رد جوهر خودکار هست آرم نایک هم صورتیه نه نارنجی لطفا با مشخصات صحیح آگهی بفرمایید',
+                goldcomment: 'خیلی متاسفم امیدوارم که در پیشنهاد های بعدی بتونیم جبران کنیم'
+            }
         ],
-        cover : "https://cdn.goldtag.net/web/uploads/pictures/270x170/307803407_1621341999__750-5445.jpg",
-        purchased : "231 عدد",
-        title : "تیشرت مردانه طرح Nike",
-        subtitle : "تک رنگ، 2 سایز",
-        price : 50000,
-        newprice : 35500,
-        tags : [
+        cover: "https://cdn.goldtag.net/web/uploads/pictures/270x170/307803407_1621341999__750-5445.jpg",
+        purchased: "231 عدد",
+        title: "تیشرت مردانه طرح Nike",
+        subtitle: "تک رنگ، 2 سایز",
+        price: 50000,
+        newprice: 35500,
+        tags: [
             'تیشرت مردانه',
             'تیشرت مردانه طرح Nike',
-            'تیشرت مردانه آستین کوتاه'  
+            'تیشرت مردانه آستین کوتاه'
         ],
-        swiper : [
+        swiper: [
             'https://cdn.goldtag.net/web/uploads/pictures/736x536/83292830_1621342031__750-5441.jpg',
             'https://cdn.goldtag.net/web/uploads/pictures/736x536/457949053_1618399929__750-5441.jpg',
             'https://cdn.goldtag.net/web/uploads/pictures/736x536/307803407_1621341999__750-5445.jpg',
             'https://cdn.goldtag.net/web/uploads/pictures/736x536/1285675403_1621342046__750-5444.jpg'
         ],
-        address : {
-            home : 'خانه'  ,
-            category : 'پوشاک',
-            secondCategory : 'پوشاک مردانه',
-            product : 'تیشرت مردانه طرح Nike'
+        address: {
+            home: 'خانه',
+            category: 'پوشاک',
+            secondCategory: 'پوشاک مردانه',
+            product: 'تیشرت مردانه طرح Nike'
 
         },
-        daynum : "15 روز",
-        description : "تیشرت های مردانه طرح Nike در رنگ سفید ارائه شده و جنسش اسپان هستش، آستین کوتاه و یقه گرده. لوگوی چاپی روی تیشرت داره و دوختش تمیزه. 2 سایز داره که میتونید قبل از خرید به جدول سایزبندی مراجعه کنید تا انتخاب بهتری داشته باشید.",
-        property : [
+        daynum: "15 روز",
+        description: "تیشرت های مردانه طرح Nike در رنگ سفید ارائه شده و جنسش اسپان هستش، آستین کوتاه و یقه گرده. لوگوی چاپی روی تیشرت داره و دوختش تمیزه. 2 سایز داره که میتونید قبل از خرید به جدول سایزبندی مراجعه کنید تا انتخاب بهتری داشته باشید.",
+        property: [
             'تیشزت مردانه',
             'جنس: اسپان',
             'طرح: Nike',
@@ -498,62 +500,62 @@ let data = [
             'محصول: ایران',
             'عکس های اسلایدر، عکس واقعی از محصول هستند که توسط تیم گلدتگ گرفته شده اند و عکس اینترنتی نیستند'
         ],
-        clothes : true,
-        beenPurchased : '20 فروخته شده'
+        clothes: true,
+        beenPurchased: '20 فروخته شده'
     },
     {
-        id:9,
+        id: 9,
         isAvailable: false,
-        comments : [{
-            id : 1,
-            like : 1,
-            dislike : 0,
+        comments: [{
+            id: 19,
+            like: 1,
+            dislike: 0,
             name: 'ام احمدی',
-            date : '1400/02/30',
-            customercomment : 'کسانیکه بدستشان رسیده لطفا اظهار نظر کنید ممنون',
-            goldcomment : 'سلام متظر نظر کاربران عزیز گلدتگ هستیم'
+            date: '1400/02/30',
+            customercomment: 'کسانیکه بدستشان رسیده لطفا اظهار نظر کنید ممنون',
+            goldcomment: 'سلام متظر نظر کاربران عزیز گلدتگ هستیم'
         },
-        {
-            id : 2,
-            like : 1,
-            dislike : 0,
-            name : 'Masoud Ghahremani',
-            date : '1400/02/29',
-            customercomment : 'گلدان ابکاری شده؟آب میشه داخلش ریخت؟',
-            goldcomment : 'بله دوست عزیز'
-        },
-        {
-            id : 3,
-            like : 1,
-            dislike : 0,
-            name : 'سارا خلجی',
-            date : '1400/03/03',
-            customercomment : 'هر دو طرف گلدان گل داره؟',
-            goldcomment : 'بله سارا جان'
-        }
+            {
+                id: 20,
+                like: 1,
+                dislike: 0,
+                name: 'Masoud Ghahremani',
+                date: '1400/02/29',
+                customercomment: 'گلدان ابکاری شده؟آب میشه داخلش ریخت؟',
+                goldcomment: 'بله دوست عزیز'
+            },
+            {
+                id: 21,
+                like: 1,
+                dislike: 0,
+                name: 'سارا خلجی',
+                date: '1400/03/03',
+                customercomment: 'هر دو طرف گلدان گل داره؟',
+                goldcomment: 'بله سارا جان'
+            }
         ],
-        title:"گلدان سرامیکی M.R.Z",
+        title: "گلدان سرامیکی M.R.Z",
         subtitle: "دارای طرح گل رز",
         purchased: " 155 عدد",
-        cover : "https://cdn.goldtag.net/web/uploads/pictures/270x170/704167149_1621340742__750-5444.jpg",
-        price : 60000,
+        cover: "https://cdn.goldtag.net/web/uploads/pictures/270x170/704167149_1621340742__750-5444.jpg",
+        price: 60000,
         newprice: 35400,
-        swiper : [
+        swiper: [
             'https://cdn.goldtag.net/web/uploads/pictures/736x536/823778970_1621340749__750-5441.jpg',
             'https://cdn.goldtag.net/web/uploads/pictures/736x536/157560287_1621340746__750-544.jpg',
             'https://cdn.goldtag.net/web/uploads/pictures/736x536/704167149_1621340742__750-5444.jpg',
             'https://cdn.goldtag.net/web/uploads/pictures/736x536/606712390_1621340757__750-5443.jpg'
         ],
-        tags : [
+        tags: [
             'گلدان',
             'گلدان سرامیکی',
             'گلدان سرامیکی M.R.Z'
         ],
-        address : {
-            home : 'خانه'  ,
-            category : 'لوازم شخصی',
-            secondCategory : 'لوازم آرایشی و بهداشتی',
-            product : 'پالت سایه چشم HUDABEAUTY'
+        address: {
+            home: 'خانه',
+            category: 'لوازم شخصی',
+            secondCategory: 'لوازم آرایشی و بهداشتی',
+            product: 'پالت سایه چشم HUDABEAUTY'
 
         },
         daynum: "15 روز",
@@ -567,68 +569,68 @@ let data = [
             'ارتفاع گلدان: 24cm',
             'قطر دهانه گلدان: 3cm',
             'سطح مقطع: 5.5cm',
-            'دارای پکیج', 
+            'دارای پکیج',
             'ابعادپکیج: 9.5x9.5x24cm',
             'محصول: چین',
             ' ارسال به شهرستان بدون امکان تعویض در صورت شکستگی',
             'عکس های اسلایدر، عکس واقعی از محصول هستند که توسط تیم گلدتگ گرفته شده اند و عکس اینترنتی نیستند'
         ],
-        clothes : false,
-        beenPurchased : '20 فروخته شده'
+        clothes: false,
+        beenPurchased: '20 فروخته شده'
     },
     {
-        id:8,
+        id: 8,
         isAvailable: false,
-        comments : [{
-            id : 1,
-            like : 1,
-            dislike : 0,
+        comments: [{
+            id: 22,
+            like: 1,
+            dislike: 0,
             name: 'ام احمدی',
-            date : '1400/02/30',
-            customercomment : 'کسانیکه بدستشان رسیده لطفا اظهار نظر کنید ممنون',
-            goldcomment : 'سلام متظر نظر کاربران عزیز گلدتگ هستیم'
+            date: '1400/02/30',
+            customercomment: 'کسانیکه بدستشان رسیده لطفا اظهار نظر کنید ممنون',
+            goldcomment: 'سلام متظر نظر کاربران عزیز گلدتگ هستیم'
         },
-        {
-            id : 2,
-            like : 1,
-            dislike : 0,
-            name : 'Masoud Ghahremani',
-            date : '1400/02/29',
-            customercomment : 'گلدان ابکاری شده؟آب میشه داخلش ریخت؟',
-            goldcomment : 'بله دوست عزیز'
-        },
-        {
-            id : 3,
-            like : 1,
-            dislike : 0,
-            name : 'سارا خلجی',
-            date : '1400/03/03',
-            customercomment : 'هر دو طرف گلدان گل داره؟',
-            goldcomment : 'بله سارا جان'
-        }
+            {
+                id: 23,
+                like: 1,
+                dislike: 0,
+                name: 'Masoud Ghahremani',
+                date: '1400/02/29',
+                customercomment: 'گلدان ابکاری شده؟آب میشه داخلش ریخت؟',
+                goldcomment: 'بله دوست عزیز'
+            },
+            {
+                id: 24,
+                like: 1,
+                dislike: 0,
+                name: 'سارا خلجی',
+                date: '1400/03/03',
+                customercomment: 'هر دو طرف گلدان گل داره؟',
+                goldcomment: 'بله سارا جان'
+            }
         ],
-        title:"گلدان سرامیکی M.R.Z",
+        title: "گلدان سرامیکی M.R.Z",
         subtitle: "دارای طرح گل رز",
         purchased: " 155 عدد",
-        cover : "https://cdn.goldtag.net/web/uploads/pictures/270x170/704167149_1621340742__750-5444.jpg",
-        price : 60000,
+        cover: "https://cdn.goldtag.net/web/uploads/pictures/270x170/704167149_1621340742__750-5444.jpg",
+        price: 60000,
         newprice: 35400,
-        swiper : [
+        swiper: [
             'https://cdn.goldtag.net/web/uploads/pictures/736x536/823778970_1621340749__750-5441.jpg',
             'https://cdn.goldtag.net/web/uploads/pictures/736x536/157560287_1621340746__750-544.jpg',
             'https://cdn.goldtag.net/web/uploads/pictures/736x536/704167149_1621340742__750-5444.jpg',
             'https://cdn.goldtag.net/web/uploads/pictures/736x536/606712390_1621340757__750-5443.jpg'
         ],
-        tags : [
+        tags: [
             'گلدان',
             'گلدان سرامیکی',
             'گلدان سرامیکی M.R.Z'
         ],
-        address : {
-            home : 'خانه'  ,
-            category : 'لوازم خانگی',
-            secondCategory : 'دکوری',
-            product : 'گلدان سرامیکی M.R.Z'
+        address: {
+            home: 'خانه',
+            category: 'لوازم خانگی',
+            secondCategory: 'دکوری',
+            product: 'گلدان سرامیکی M.R.Z'
 
         },
         daynum: "15 روز",
@@ -642,50 +644,50 @@ let data = [
             'ارتفاع گلدان: 24cm',
             'قطر دهانه گلدان: 3cm',
             'سطح مقطع: 5.5cm',
-            'دارای پکیج', 
+            'دارای پکیج',
             'ابعادپکیج: 9.5x9.5x24cm',
             'محصول: چین',
             ' ارسال به شهرستان بدون امکان تعویض در صورت شکستگی',
             'عکس های اسلایدر، عکس واقعی از محصول هستند که توسط تیم گلدتگ گرفته شده اند و عکس اینترنتی نیستند'
         ],
-        clothes : false,
-        beenPurchased : '20 فروخته شده'
+        clothes: false,
+        beenPurchased: '20 فروخته شده'
     },
     {
-        className : 'gridSecond',
-        id:7,
+        className: 'gridSecond',
+        id: 7,
         isAvailable: true,
-        comments : [{
-            id : 1,
-            like : 1,
-            dislike : 0,
+        comments: [{
+            id: 25,
+            like: 1,
+            dislike: 0,
             name: 'مه رضایی',
-            date : '1400/02/31',
-            customercomment : 'کسانی ک استفاده کردند از جنسش بگن لطفا نمیریزه؟ حالت چسبناک داره یانه؟',
-            goldcomment : 'سلام منتظر نظر کاربران عزیز گلدتگ هستیم'
+            date: '1400/02/31',
+            customercomment: 'کسانی ک استفاده کردند از جنسش بگن لطفا نمیریزه؟ حالت چسبناک داره یانه؟',
+            goldcomment: 'سلام منتظر نظر کاربران عزیز گلدتگ هستیم'
         }],
-        cover : "https://cdn.goldtag.net/web/uploads/pictures/736x536/999726840_1621418858__750-544.jpg",
-        purchased : "44 عدد",
-        swiper : [
+        cover: "https://cdn.goldtag.net/web/uploads/pictures/736x536/999726840_1621418858__750-544.jpg",
+        purchased: "44 عدد",
+        swiper: [
             'https://cdn.goldtag.net/web/uploads/pictures/736x536/1723945140_1621418866__750-5442.jpg',
             'https://cdn.goldtag.net/web/uploads/pictures/736x536/250610996_1621418862__750-5441.jpg',
             'https://cdn.goldtag.net/web/uploads/pictures/736x536/1443349497_1621418854__750-5443.jpg',
             'https://cdn.goldtag.net/web/uploads/pictures/736x536/1723945140_1621418866__750-5442.jpg'
         ],
-        title : "پالت سایه چشم HUDABEAUTY",
-        subtitle : "18 رنگ، ماندگاری بالا",
-        price : 90000,
-        newprice : 64800,
-        address : {
-            home : 'خانه'  ,
-            category : 'لوازم شخصی',
-            secondCategory : 'لوازم آرایشی و بهداشتی',
-            product : 'پالت سایه چشم HUDABEAUTY'
+        title: "پالت سایه چشم HUDABEAUTY",
+        subtitle: "18 رنگ، ماندگاری بالا",
+        price: 90000,
+        newprice: 64800,
+        address: {
+            home: 'خانه',
+            category: 'لوازم شخصی',
+            secondCategory: 'لوازم آرایشی و بهداشتی',
+            product: 'پالت سایه چشم HUDABEAUTY'
 
         },
-        daynum : "16 روز",
-        description : "پالت سایه چشم HUDA BEAUTY مدل New N.U.D.E دارای 18 رنگ رم و طبیعیه که این 18 رنگ شامل: 7 رنگ شاین و 10 رنگ مات و 1 رنگ کانسیلره، شما میتوانید با این پالت چشم انواع آرایش چشم از آرایش های ملایم و روزانه تا آرایش کامل شب رو داشته باشید. این پالت دارای ترکیب رنگی زیبا و منحصر به فردی بوده و از ماندگاری بالایی برخورداره.",
-        property : [
+        daynum: "16 روز",
+        description: "پالت سایه چشم HUDA BEAUTY مدل New N.U.D.E دارای 18 رنگ رم و طبیعیه که این 18 رنگ شامل: 7 رنگ شاین و 10 رنگ مات و 1 رنگ کانسیلره، شما میتوانید با این پالت چشم انواع آرایش چشم از آرایش های ملایم و روزانه تا آرایش کامل شب رو داشته باشید. این پالت دارای ترکیب رنگی زیبا و منحصر به فردی بوده و از ماندگاری بالایی برخورداره.",
+        property: [
             'پالت سایه',
             'طرح: HUDA BEAUTY',
             '18 رنگ',
@@ -699,48 +701,48 @@ let data = [
             'به دلیل رعایت مسائل بهداشتی امکان تعویض یا استرداد کالا وجود ندارد',
             'عکس های اسلایدر، عکس واقعی از محصول هستند که توسط تیم گلدتگ گرفته شده اند و عکس اینترنتی نیستند'
         ],
-        tags : [
+        tags: [
             'پالت سایه',
             'سایه چشم',
-            'پالت سایه چشم HUDABEAUTY'    
+            'پالت سایه چشم HUDABEAUTY'
         ],
-        clothes : false,
-        beenPurchased : '20 فروخته شده'
+        clothes: false,
+        beenPurchased: '20 فروخته شده'
     },
     {
-        className : 'gridThird',
-        id:10,
-        comments : [{
-            id : 1,
-            like : 1,
-            dislike : 0,
+        className: 'gridThird',
+        id: 10,
+        comments: [{
+            id: 26,
+            like: 1,
+            dislike: 0,
             name: 'مه رضایی',
-            date : '1400/02/31',
-            customercomment : 'کسانی ک استفاده کردند از جنسش بگن لطفا نمیریزه؟ حالت چسبناک داره یانه؟',
-            goldcomment : 'سلام منتظر نظر کاربران عزیز گلدتگ هستیم'
+            date: '1400/02/31',
+            customercomment: 'کسانی ک استفاده کردند از جنسش بگن لطفا نمیریزه؟ حالت چسبناک داره یانه؟',
+            goldcomment: 'سلام منتظر نظر کاربران عزیز گلدتگ هستیم'
         }],
-        cover : "https://cdn.goldtag.net/web/uploads/pictures/736x536/999726840_1621418858__750-544.jpg",
-        purchased : "44 عدد",
-        swiper : [
+        cover: "https://cdn.goldtag.net/web/uploads/pictures/736x536/999726840_1621418858__750-544.jpg",
+        purchased: "44 عدد",
+        swiper: [
             'https://cdn.goldtag.net/web/uploads/pictures/736x536/1723945140_1621418866__750-5442.jpg',
             'https://cdn.goldtag.net/web/uploads/pictures/736x536/250610996_1621418862__750-5441.jpg',
             'https://cdn.goldtag.net/web/uploads/pictures/736x536/1443349497_1621418854__750-5443.jpg',
             'https://cdn.goldtag.net/web/uploads/pictures/736x536/1723945140_1621418866__750-5442.jpg'
         ],
-        title : "پالت سایه چشم HUDABEAUTY",
-        subtitle : "18 رنگ، ماندگاری بالا",
-        price : 90000,
-        newprice : 64800,
-        address : {
-            home : 'خانه'  ,
-            category : 'لوازم شخصی',
-            secondCategory : 'لوازم آرایشی و بهداشتی',
-            product : 'پالت سایه چشم HUDABEAUTY'
+        title: "پالت سایه چشم HUDABEAUTY",
+        subtitle: "18 رنگ، ماندگاری بالا",
+        price: 90000,
+        newprice: 64800,
+        address: {
+            home: 'خانه',
+            category: 'لوازم شخصی',
+            secondCategory: 'لوازم آرایشی و بهداشتی',
+            product: 'پالت سایه چشم HUDABEAUTY'
 
         },
-        daynum : "16 روز",
-        description : "پالت سایه چشم HUDA BEAUTY مدل New N.U.D.E دارای 18 رنگ رم و طبیعیه که این 18 رنگ شامل: 7 رنگ شاین و 10 رنگ مات و 1 رنگ کانسیلره، شما میتوانید با این پالت چشم انواع آرایش چشم از آرایش های ملایم و روزانه تا آرایش کامل شب رو داشته باشید. این پالت دارای ترکیب رنگی زیبا و منحصر به فردی بوده و از ماندگاری بالایی برخورداره.",
-        property : [
+        daynum: "16 روز",
+        description: "پالت سایه چشم HUDA BEAUTY مدل New N.U.D.E دارای 18 رنگ رم و طبیعیه که این 18 رنگ شامل: 7 رنگ شاین و 10 رنگ مات و 1 رنگ کانسیلره، شما میتوانید با این پالت چشم انواع آرایش چشم از آرایش های ملایم و روزانه تا آرایش کامل شب رو داشته باشید. این پالت دارای ترکیب رنگی زیبا و منحصر به فردی بوده و از ماندگاری بالایی برخورداره.",
+        property: [
             'پالت سایه',
             'طرح: HUDA BEAUTY',
             '18 رنگ',
@@ -754,13 +756,13 @@ let data = [
             'به دلیل رعایت مسائل بهداشتی امکان تعویض یا استرداد کالا وجود ندارد',
             'عکس های اسلایدر، عکس واقعی از محصول هستند که توسط تیم گلدتگ گرفته شده اند و عکس اینترنتی نیستند'
         ],
-        tags : [
+        tags: [
             'پالت سایه',
             'سایه چشم',
-            'پالت سایه چشم HUDABEAUTY'    
+            'پالت سایه چشم HUDABEAUTY'
         ],
-        clothes : false,
-        beenPurchased : '20 فروخته شده'
+        clothes: false,
+        beenPurchased: '20 فروخته شده'
     }
 ];
-    export default data;
+export default data;

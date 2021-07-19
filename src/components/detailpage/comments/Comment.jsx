@@ -3,7 +3,7 @@ import {MobileView} from "react-device-detect";
 import LikeAndDislike from "./likes/LikeAndDislike";
 import commentTexts from "./texts/commentTexts";
 import Divider from "../../divider/Divider";
-function Comment({name, date, customercomment, goldcomment,like,dislike}){
+function Comment({name, date, customercomment, goldcomment,like,dislike, id}){
     return(
         <div className='QA-container'>
             <div className="customer">
@@ -15,7 +15,7 @@ function Comment({name, date, customercomment, goldcomment,like,dislike}){
                     </div>
                 </div>
                 <p className="customer-comment">{customercomment}</p>
-                <LikeAndDislike like={like} dislike={dislike}/>
+                <LikeAndDislike id={id} like={like} dislike={dislike}/>
             </div>
             <div className='gold'>
                 <MobileView className='gold-info'>

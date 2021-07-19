@@ -21,11 +21,11 @@ function CommentsContainer({id}){
     function showComments(e){
         Dispatch(actionTypes.Comments);
         style(e);
-    };
+    }
     function showRating(e){
         Dispatch(actionTypes.Rating);
         style(e);
-    };
+    }
     const Tab = useSelector(state => state.comments.Tab);
     localStorage.setItem('comments' , JSON.stringify(id.comments));
     return(
