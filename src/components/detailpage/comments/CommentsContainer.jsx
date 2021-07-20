@@ -27,7 +27,6 @@ function CommentsContainer({id}){
         style(e);
     }
     const Tab = useSelector(state => state.comments.Tab);
-    localStorage.setItem('comments' , JSON.stringify(id.comments));
     return(
         <div className='comments-container'>
                 <span className={ (Tab) ? "clicked Tabs" : 'unClicked Tabs'} onClick={showComments}>

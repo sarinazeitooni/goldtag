@@ -9,7 +9,7 @@ const state= {};
 const persistConfig = {
     key: "root",
     storage,
-    whitelist:['likes']
+    blacklist:['comments']
 };
 
 const persistedReducer = persistReducer(persistConfig, rootReducer);

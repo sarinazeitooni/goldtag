@@ -1,20 +1,29 @@
-const initialState = {
-    like : 0,
-    dislike : 0
+let initialState = {
+    like: 0,
+    dislike: 0
 }
-export default function likes(state=initialState, action) {
+let id;
+let target;
+let data;
+export default function likes(state = initialState, action) {
+    console.log(action , "ACTION");
     switch (action.type) {
+
         case 'Like':
+            id = action.id;
+            data = action.data
+
+            return {
+                state,
+                like: state.like + 1,
+                id : action.id
+            }
+        case 'Dislike':
+            id = action.id;
             return {
                 ...state,
-                like: state.like+1,
-                id : action.payload
-            };
-        case 'Dislike':
-            return{
-                ...state,
-                dislike: state.dislike+1,
-                id : action.payload
+                dislike: state.dislike + 1,
+                id : action.id
             }
         default:
             return state;

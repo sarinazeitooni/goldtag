@@ -4,24 +4,28 @@ import {useDispatch, useSelector} from "react-redux";
 import ThumbDownOutlinedIcon from '@material-ui/icons/ThumbDownOutlined';
 import ThumbUpAltOutlinedIcon from '@material-ui/icons/ThumbUpAltOutlined';
 import actionTypes from "../../../../redux/actionTypes/actionTypes";
-function LikeAndDislike({id}){
+function LikeAndDislike({data,id,like,dislike}){
     const dispatch = useDispatch();
     let likes = useSelector((state) => state.likes.like);
     let dislikes = useSelector((state) => state.likes.dislike);
+
     function Dispatch(action , e){
         dispatch({
             type : action,
-            id : e
+            data : e
         })
     }
     function addDislike(e){
-        Dispatch(actionTypes.Like , e);
-        console.log(e,"dislike");
+
+        let target = data.find((object) => object.id === e);
+        Dispatch(actionTypes.Like , target);
     }
     function addLike(e){
-        Dispatch(actionTypes.Dislike , e);
-        console.log(e,"like");
+        let target = data.find((object) => object.id === e);
+        Dispatch(actionTypes.Dislike , target);
+
    }
+
     return(
         <div className='like-dislike-container'>
             <button className='like-buttons' onClick={()=>{addDislike(id)}}>

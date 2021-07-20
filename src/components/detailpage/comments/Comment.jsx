@@ -3,7 +3,7 @@ import LikeAndDislike from "./likes/LikeAndDislike";
 import commentTexts from "./texts/commentTexts";
 import Divider from "../../divider/Divider";
 import useViewPort from "../../../customIsMobileHook/useViewPort";
-function Comment({name, date, customercomment, goldcomment,like,dislike, id}){
+function Comment({name, date, customercomment, goldcomment,like,dislike, id,data}){
     const isMobile = useViewPort();
     return(
         <div className='QA-container'>
@@ -16,7 +16,7 @@ function Comment({name, date, customercomment, goldcomment,like,dislike, id}){
                     </div>
                 </div>
                 <p className="customer-comment">{customercomment}</p>
-                <LikeAndDislike id={id} like={like} dislike={dislike}/>
+                <LikeAndDislike data={data} id={id} like={like} dislike={dislike}/>
             </div>
             <div className='gold'>
                 {isMobile ? <div className='gold-info'><div className="gold-info-text">
