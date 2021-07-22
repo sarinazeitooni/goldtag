@@ -16,7 +16,7 @@ function Comment({name, date, customercomment, goldcomment,like,dislike, id,data
                     </div>
                 </div>
                 <p className="customer-comment">{customercomment}</p>
-                <LikeAndDislike data={data} id={id} like={like} dislike={dislike}/>
+                <LikeAndDislike data={data} id={id}/>
             </div>
             <div className='gold'>
                 {isMobile ? <div className='gold-info'><div className="gold-info-text">

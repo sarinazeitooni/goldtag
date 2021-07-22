@@ -1,30 +1,39 @@
-let initialState = {
-    like: 0,
-    dislike: 0
+const initialState = {
+    items: [
+    ]
 }
-let id;
-let target;
-let data;
+let targetItem;
+let item;
+let targetobject
 export default function likes(state = initialState, action) {
-    console.log(action , "ACTION");
     switch (action.type) {
-
         case 'Like':
-            id = action.id;
-            data = action.data
+            targetItem= action.targetItem;
+            item = state.items;
+            targetobject = item.find((object) => object.id === targetItem.id);
+            if(targetobject){
+                targetItem.like++
+            }
+            item.push(targetItem)
+            return {
+                ... state,
+                items: item
+            }
+
+        case 'Dislike':
+            targetItem= action.targetItem;
+            item = state.items;
+            targetobject = item.find((object) => object.id === targetItem.id);
+            if(targetobject){
+                targetItem.dislike++
+            }
+            item.push(targetItem)
 
             return {
-                state,
-                like: state.like + 1,
-                id : action.id
+                ... state,
+                items: item
             }
-        case 'Dislike':
-            id = action.id;
-            return {
-                ...state,
-                dislike: state.dislike + 1,
-                id : action.id
-            }
+
         default:
             return state;
     }
