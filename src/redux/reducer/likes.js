@@ -1,6 +1,5 @@
 const initialState = {
-    items: [
-    ]
+    items: []
 }
 let targetItem;
 let item;
@@ -8,29 +7,29 @@ let targetobject
 export default function likes(state = initialState, action) {
     switch (action.type) {
         case 'Like':
-            targetItem= action.targetItem;
+            targetItem = action.targetItem;
             item = state.items;
             targetobject = item.find((object) => object.id === targetItem.id);
-            if(targetobject){
+            if (targetobject) {
                 targetItem.like++
             }
             item.push(targetItem)
             return {
-                ... state,
+                ...state,
                 items: item
             }
 
         case 'Dislike':
-            targetItem= action.targetItem;
+            targetItem = action.targetItem;
             item = state.items;
             targetobject = item.find((object) => object.id === targetItem.id);
-            if(targetobject){
+            if (targetobject) {
                 targetItem.dislike++
             }
             item.push(targetItem)
 
             return {
-                ... state,
+                ...state,
                 items: item
             }
 
