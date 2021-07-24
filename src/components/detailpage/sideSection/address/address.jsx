@@ -6,7 +6,6 @@ import React from "react";
 import useViewPort from "../../../../customIsMobileHook/useViewPort";
 function SideAddress({id , comments}){
     const isMobile = useViewPort();
-
     return(
         <React.Fragment>
             <br/>

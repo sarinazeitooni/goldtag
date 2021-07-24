@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1627136782491" clover="3.2.0">
-  <project timestamp="1627136782491" name="All files">
-    <metrics statements="186" coveredstatements="76" conditionals="80" coveredconditionals="22" methods="91" coveredmethods="41" elements="357" coveredelements="139" complexity="0" loc="186" ncloc="186" packages="64" files="77" classes="77"/>
+<coverage generated="1627137296649" clover="3.2.0">
+  <project timestamp="1627137296649" name="All files">
+    <metrics statements="186" coveredstatements="80" conditionals="80" coveredconditionals="24" methods="91" coveredmethods="43" elements="357" coveredelements="147" complexity="0" loc="186" ncloc="186" packages="64" files="77" classes="77"/>
     <package name="src">
       <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
       <file name="App.js" path="S:\web design\monta sessions\goldtag\src\App.js">
@@ -160,7 +160,7 @@
       <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="commentTexts.jsx" path="S:\web design\monta sessions\goldtag\src\components\detailpage\comments\texts\commentTexts.jsx">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="5" type="stmt"/>
+        <line num="1" count="6" type="stmt"/>
       </file>
       <file name="texts.jsx" path="S:\web design\monta sessions\goldtag\src\components\detailpage\comments\texts\texts.jsx">
         <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
@@ -242,11 +242,11 @@
       </file>
     </package>
     <package name="src.components.detailpage.sideSection.address">
-      <metrics statements="2" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
       <file name="address.jsx" path="S:\web design\monta sessions\goldtag\src\components\detailpage\sideSection\address\address.jsx">
-        <metrics statements="2" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="8" count="0" type="stmt"/>
-        <line num="10" count="0" type="stmt"/>
+        <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
       </file>
     </package>
     <package name="src.components.detailpage.sideSection.conditions">
@@ -259,11 +259,11 @@
       </file>
     </package>
     <package name="src.components.detailpage.sideSection.description">
-      <metrics statements="2" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <metrics statements="2" coveredstatements="2" conditionals="4" coveredconditionals="1" methods="1" coveredmethods="1"/>
       <file name="sideSectionDescription.jsx" path="S:\web design\monta sessions\goldtag\src\components\detailpage\sideSection\description\sideSectionDescription.jsx">
-        <metrics statements="2" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="7" count="0" type="stmt"/>
-        <line num="8" count="0" type="stmt"/>
+        <metrics statements="2" coveredstatements="2" conditionals="4" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
       </file>
     </package>
     <package name="src.components.detailpage.sideSection.tags">
@@ -531,13 +531,13 @@
       <metrics statements="7" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="1"/>
       <file name="useViewPort.jsx" path="S:\web design\monta sessions\goldtag\src\customIsMobileHook\useViewPort.jsx">
         <metrics statements="7" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="1"/>
-        <line num="2" count="15" type="stmt"/>
-        <line num="3" count="13" type="cond" truecount="2" falsecount="0"/>
-        <line num="5" count="13" type="stmt"/>
+        <line num="2" count="17" type="stmt"/>
+        <line num="3" count="15" type="cond" truecount="2" falsecount="0"/>
+        <line num="5" count="15" type="stmt"/>
         <line num="6" count="0" type="stmt"/>
         <line num="7" count="0" type="stmt"/>
         <line num="8" count="0" type="stmt"/>
-        <line num="11" count="13" type="stmt"/>
+        <line num="11" count="15" type="stmt"/>
       </file>
     </package>
     <package name="src.data">
@@ -562,7 +562,7 @@
       <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="actionTypes.js" path="S:\web design\monta sessions\goldtag\src\redux\actionTypes\actionTypes.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="4" type="stmt"/>
+        <line num="1" count="5" type="stmt"/>
       </file>
     </package>
     <package name="src.redux.reducer">
