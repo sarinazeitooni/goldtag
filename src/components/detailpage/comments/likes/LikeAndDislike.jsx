@@ -37,9 +37,9 @@ function LikeAndDislike({data, id}) {
     return (
         <div className='like-dislike-container'>
             {
-                buttons.map((index)=>{
+                buttons.map((index,item)=>{
                     return(
-                        <button className='like-buttons' onClick={() => {
+                        <button key={item} className='like-buttons' onClick={() => {
                             add(id, index.action)
                         }}>
                             {index.icon}
