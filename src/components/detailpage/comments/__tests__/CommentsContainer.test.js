@@ -4,7 +4,6 @@ import {Provider} from 'react-redux';
 import configureStore from 'redux-mock-store';
 import CommentsContainer from "../CommentsContainer";
 
-const store = configureStore();
 const initialState = {
     Tab : false
 }
