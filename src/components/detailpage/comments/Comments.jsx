@@ -7,9 +7,9 @@ function Comments({items}){
     const data = items.comments;
     return(
             <div className='QandA-container'>
-                    {data.map((item)=>{
+                    {data.map((item,index)=>{
                         return(
-                            <div key={item.id}>
+                            <div key={index}>
                                 <Comment data={data} id={item.id} like={item.like} dislike={item.dislike} name={item.name} date={item.date} customercomment ={item.customercomment} goldcomment={item.goldcomment} />
                             </div>
                         )

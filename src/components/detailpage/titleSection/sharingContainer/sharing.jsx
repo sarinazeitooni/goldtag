@@ -10,9 +10,9 @@ function SharingContainer({titleSectionData}){
             {isMobile ? <div className='sharing-container'>
                 <div>{titleSectionData.share}</div>
                 <div>
-                    {icons.map((item)=>{
+                    {icons.map((item,index)=>{
                         return(
-                            <span key={item + ''} className="social-media-icon"><FontAwesomeIcon icon={faSchool} /></span>
+                            <span key={index} className="social-media-icon"><FontAwesomeIcon icon={faSchool} /></span>
                         )
                     })}
                 </div>

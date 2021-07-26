@@ -7,16 +7,15 @@ import useViewPort from "../../../customIsMobileHook/useViewPort";
 function Property({data}){
     let properties = data.property;
     const isMobile = useViewPort();
-
     return(
         <div className='side-section-container'>
             <h3> <FontAwesomeIcon icon={faList}/>{propertyTexts.properties}</h3>
                 {!isMobile ? <Divider/> : ''}
             <ul className="property-container">
                 {
-                    properties.map((item)=>{
+                    properties.map((item,index)=>{
                         return(
-                        <li>{item}</li>
+                        <li key={index}>{item}</li>
                         )
                     })
                 }
