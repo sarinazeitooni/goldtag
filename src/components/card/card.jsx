@@ -8,6 +8,7 @@ import soldout from '../assets/img/soldout.png';
 import {Link} from 'react-router-dom';
 import Divider from "../divider/Divider";
 import NumberFormat from 'react-number-format';
+
 function Card({size,id,cover,title,subtitle,price,beenPurchased,newprice ,currency,className, available}){
     const isMobile = useViewPort();
     return(

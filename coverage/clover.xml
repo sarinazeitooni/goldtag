@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1627288664427" clover="3.2.0">
-  <project timestamp="1627288664427" name="All files">
-    <metrics statements="189" coveredstatements="122" conditionals="80" coveredconditionals="31" methods="93" coveredmethods="58" elements="362" coveredelements="211" complexity="0" loc="189" ncloc="189" packages="65" files="77" classes="77"/>
+<coverage generated="1627290583228" clover="3.2.0">
+  <project timestamp="1627290583228" name="All files">
+    <metrics statements="186" coveredstatements="127" conditionals="80" coveredconditionals="31" methods="93" coveredmethods="58" elements="359" coveredelements="216" complexity="0" loc="186" ncloc="186" packages="65" files="74" classes="74"/>
     <package name="src">
       <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
       <file name="App.js" path="D:\sarina\goldtag\src\App.js">
@@ -31,23 +31,23 @@
       <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="advicesTexts.jsx" path="D:\sarina\goldtag\src\components\advices\texts\advicesTexts.jsx">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="2" type="stmt"/>
       </file>
     </package>
     <package name="src.components.assets.data">
       <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="Data.jsx" path="D:\sarina\goldtag\src\components\assets\data\Data.jsx">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="3" type="stmt"/>
+        <line num="1" count="4" type="stmt"/>
       </file>
     </package>
     <package name="src.components.card">
       <metrics statements="3" coveredstatements="2" conditionals="6" coveredconditionals="3" methods="2" coveredmethods="1"/>
       <file name="card.jsx" path="D:\sarina\goldtag\src\components\card\card.jsx">
         <metrics statements="3" coveredstatements="2" conditionals="6" coveredconditionals="3" methods="2" coveredmethods="1"/>
-        <line num="12" count="2" type="stmt"/>
         <line num="13" count="2" type="stmt"/>
-        <line num="39" count="0" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
       </file>
     </package>
     <package name="src.components.card.texts">
@@ -68,14 +68,14 @@
       </file>
     </package>
     <package name="src.components.category.data">
-      <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="categoryData.jsx" path="D:\sarina\goldtag\src\components\category\data\categoryData.jsx">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="3" type="stmt"/>
+        <line num="1" count="4" type="stmt"/>
       </file>
       <file name="data.jsx" path="D:\sarina\goldtag\src\components\category\data\data.jsx">
-        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="0" type="stmt"/>
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
       </file>
     </package>
     <package name="src.components.detailpage.Attributes">
@@ -92,7 +92,7 @@
       <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="propertyTexts.jsx" path="D:\sarina\goldtag\src\components\detailpage\Attributes\texts\propertyTexts.jsx">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="2" type="stmt"/>
       </file>
     </package>
     <package name="src.components.detailpage.allDetails">
@@ -153,14 +153,10 @@
       </file>
     </package>
     <package name="src.components.detailpage.comments.texts">
-      <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="commentTexts.jsx" path="D:\sarina\goldtag\src\components\detailpage\comments\texts\commentTexts.jsx">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="7" type="stmt"/>
-      </file>
-      <file name="texts.jsx" path="D:\sarina\goldtag\src\components\detailpage\comments\texts\texts.jsx">
-        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="0" type="stmt"/>
+        <line num="1" count="8" type="stmt"/>
       </file>
     </package>
     <package name="src.components.detailpage.mainSection">
@@ -199,7 +195,7 @@
       <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="mainSectionTexts.jsx" path="D:\sarina\goldtag\src\components\detailpage\mainSection\texts\mainSectionTexts.jsx">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="2" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
     </package>
     <package name="src.components.detailpage.properties">
@@ -223,14 +219,10 @@
       </file>
     </package>
     <package name="src.components.detailpage.properties.texts">
-      <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="propertyTexts.jsx" path="D:\sarina\goldtag\src\components\detailpage\properties\texts\propertyTexts.jsx">
-        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="0" type="stmt"/>
-      </file>
-      <file name="texts.jsx" path="D:\sarina\goldtag\src\components\detailpage\properties\texts\texts.jsx">
-        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="0" type="stmt"/>
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
       </file>
     </package>
     <package name="src.components.detailpage.sideSection">
@@ -244,7 +236,7 @@
       <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="sideSectionData.jsx" path="D:\sarina\goldtag\src\components\detailpage\sideSection\Data\sideSectionData.jsx">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="2" type="stmt"/>
       </file>
     </package>
     <package name="src.components.detailpage.sideSection.address">
@@ -281,10 +273,10 @@
       </file>
     </package>
     <package name="src.components.detailpage.sideSection.texts">
-      <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="texts.jsx" path="D:\sarina\goldtag\src\components\detailpage\sideSection\texts\texts.jsx">
-        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="0" type="stmt"/>
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
       </file>
     </package>
     <package name="src.components.detailpage.titleSection">
@@ -298,7 +290,7 @@
       <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="titleSectionData.jsx" path="D:\sarina\goldtag\src\components\detailpage\titleSection\Data\titleSectionData.jsx">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="2" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
     </package>
     <package name="src.components.detailpage.titleSection.buttons">
@@ -329,10 +321,10 @@
       </file>
     </package>
     <package name="src.components.detailpage.titleSection.texts">
-      <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="texts.jsx" path="D:\sarina\goldtag\src\components\detailpage\titleSection\texts\texts.jsx">
-        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="0" type="stmt"/>
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
       </file>
     </package>
     <package name="src.components.detailpage.titleSection.titleSectionFeatures">
@@ -382,14 +374,14 @@
       <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="featuresData.jsx" path="D:\sarina\goldtag\src\components\features\Data\featuresData.jsx">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="2" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
     </package>
     <package name="src.components.features.texts">
-      <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="texts.jsx" path="D:\sarina\goldtag\src\components\features\texts\texts.jsx">
-        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="0" type="stmt"/>
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
       </file>
     </package>
     <package name="src.components.footer">
@@ -414,7 +406,7 @@
       <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="footerData.js" path="D:\sarina\goldtag\src\components\footer\Data\footerData.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="2" count="2" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
       </file>
     </package>
     <package name="src.components.goldtags">
@@ -427,14 +419,10 @@
       </file>
     </package>
     <package name="src.components.goldtags.texts">
-      <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="goldtagTexts.jsx" path="D:\sarina\goldtag\src\components\goldtags\texts\goldtagTexts.jsx">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="2" type="stmt"/>
-      </file>
-      <file name="texts.jsx" path="D:\sarina\goldtag\src\components\goldtags\texts\texts.jsx">
-        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="0" type="stmt"/>
+        <line num="1" count="4" type="stmt"/>
       </file>
     </package>
     <package name="src.components.header">
@@ -462,7 +450,7 @@
       <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="navbarData.jsx" path="D:\sarina\goldtag\src\components\header\navbar\Data\navbarData.jsx">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="2" count="2" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
       </file>
     </package>
     <package name="src.components.header.navbar.dropdown">
@@ -485,7 +473,7 @@
       <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="headerTexts.jsx" path="D:\sarina\goldtag\src\components\header\texts\headerTexts.jsx">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="2" type="stmt"/>
       </file>
     </package>
     <package name="src.components.social">
@@ -500,14 +488,14 @@
       <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="socialData.jsx" path="D:\sarina\goldtag\src\components\social\Data\socialData.jsx">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="2" count="2" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
       </file>
     </package>
     <package name="src.components.social.images">
       <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="images.jsx" path="D:\sarina\goldtag\src\components\social\images\images.jsx">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="5" count="3" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
       </file>
     </package>
     <package name="src.components.social.texts">
@@ -530,14 +518,14 @@
       <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="swiperImg.jsx" path="D:\sarina\goldtag\src\components\swiper\images\swiperImg.jsx">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="2" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
       </file>
     </package>
     <package name="src.customIsMobileHook">
       <metrics statements="7" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="1"/>
       <file name="useViewPort.jsx" path="D:\sarina\goldtag\src\customIsMobileHook\useViewPort.jsx">
         <metrics statements="7" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="1"/>
-        <line num="2" count="22" type="stmt"/>
+        <line num="2" count="24" type="stmt"/>
         <line num="3" count="18" type="cond" truecount="2" falsecount="0"/>
         <line num="5" count="18" type="stmt"/>
         <line num="6" count="0" type="stmt"/>
@@ -568,27 +556,27 @@
       <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="actionTypes.js" path="D:\sarina\goldtag\src\redux\actionTypes\actionTypes.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="7" type="stmt"/>
+        <line num="1" count="9" type="stmt"/>
       </file>
     </package>
     <package name="src.redux.reducer">
       <metrics statements="23" coveredstatements="7" conditionals="12" coveredconditionals="4" methods="4" coveredmethods="2"/>
       <file name="combineReducer.js" path="D:\sarina\goldtag\src\redux\reducer\combineReducer.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="4" count="1" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
       </file>
       <file name="comments.js" path="D:\sarina\goldtag\src\redux\reducer\comments.js">
         <metrics statements="5" coveredstatements="3" conditionals="4" coveredconditionals="2" methods="1" coveredmethods="1"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="5" count="5" type="cond" truecount="1" falsecount="2"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="5" count="12" type="cond" truecount="1" falsecount="2"/>
         <line num="7" count="0" type="stmt"/>
         <line num="11" count="0" type="stmt"/>
-        <line num="15" count="5" type="stmt"/>
+        <line num="15" count="12" type="stmt"/>
       </file>
       <file name="likes.js" path="D:\sarina\goldtag\src\redux\reducer\likes.js">
         <metrics statements="17" coveredstatements="3" conditionals="8" coveredconditionals="2" methods="3" coveredmethods="1"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="8" count="5" type="cond" truecount="1" falsecount="2"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="8" count="12" type="cond" truecount="1" falsecount="2"/>
         <line num="10" count="0" type="stmt"/>
         <line num="11" count="0" type="stmt"/>
         <line num="12" count="0" type="stmt"/>
@@ -603,18 +591,18 @@
         <line num="27" count="0" type="stmt"/>
         <line num="29" count="0" type="stmt"/>
         <line num="31" count="0" type="stmt"/>
-        <line num="37" count="5" type="stmt"/>
+        <line num="37" count="12" type="stmt"/>
       </file>
     </package>
     <package name="src.redux.store">
       <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="store.js" path="D:\sarina\goldtag\src\redux\store\store.js">
         <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="9" count="1" type="stmt"/>
-        <line num="15" count="1" type="stmt"/>
-        <line num="17" count="1" type="stmt"/>
-        <line num="22" count="1" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="22" count="2" type="stmt"/>
       </file>
     </package>
   </project>

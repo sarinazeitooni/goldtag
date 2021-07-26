@@ -1,4 +1,4 @@
-const  data = {
+const data = {
     h3text : 'گلدتگ براساس دسته ها',
     images : [
         'https://cdn.goldtag.net/web/uploads/banners/b1d1.jpg',
