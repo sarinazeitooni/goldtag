@@ -8,7 +8,7 @@ function TitleSharing({id}){
     const socialMedia = [1,2,3];
     return(
         <React.Fragment>
-            {isMobile ? <div className='sharing-container'>
+            {!isMobile && <div className='sharing-container'>
                 <div>{id.share}</div>
                 <div>
                     {
@@ -19,7 +19,7 @@ function TitleSharing({id}){
                         })
                     }
                 </div>
-            </div> : ''}
+            </div>}
         </React.Fragment>
     )
 };

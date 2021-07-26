@@ -29,13 +29,13 @@
       color: #551e14;
       &::after{
         @media screen and (max-width:600px){
-          left: 14px;
+          left: 19px;
         }
         position: absolute;
         content: '';
         width: 80px;
         left: 110px;
-        top: 12px;
+        top: 11px;
         height: 1px;
         background-color:  #551e14;
       }
