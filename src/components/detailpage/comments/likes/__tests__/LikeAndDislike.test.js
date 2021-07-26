@@ -4,7 +4,6 @@ import {Provider} from 'react-redux';
 import configureStore from 'redux-mock-store';
 import LikeAndDislike from "../LikeAndDislike";
 describe("LikeAndDislike component", () => {
-    const store = configureStore();
     const initialState = {}
     const mockStore = configureStore();
     let Store = mockStore(initialState);
